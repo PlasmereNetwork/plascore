@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "advancements:templex_root",
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": "That's the Templexian Spirit",
+		"description": "Thanks for voting for Templex!",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"rewards": {
+		"experience": 10000
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:diamond_block"
+		},
+		{
+			"item": "minecraft:emerald_block"
+		},
+		{
+			"item": "minecraft:trident"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		}
+	],
+	"result": {
+		"item": "minecraft:heart_of_the_sea"
+		,"count":4
+	}
+}

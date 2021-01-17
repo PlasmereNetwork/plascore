@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_boots"
+					}
+				]
+			}
+		}
+	},
+	"parent": "advancements:templex_steak",
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_boots"
+		},
+		"title": "Templexian Traveler",
+		"description": "I will walk 500 chunks...!",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"rewards": {
+		"experience": 1000
+	}
+}

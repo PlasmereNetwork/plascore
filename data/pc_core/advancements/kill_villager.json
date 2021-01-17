@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+						"type": "minecraft:villager"
+					}
+			}
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": "Murderer!",
+		"description": "Kill a villager for emeralds",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "pc_core:kill_villager",
+		"experience": 10
+	}
+}

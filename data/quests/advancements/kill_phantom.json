@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+						"type": "minecraft:phantom"
+					}
+			}
+		}
+	},
+	"parent": "quests:quest_root",
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": "Templex Quests: Phantom Menace",
+		"description": "Kill a phantom!!",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"rewards": {
+		"function": "quests:killed_phantom",
+		"experience": 100
+	}
+}

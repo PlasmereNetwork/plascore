@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:placed_block"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title": "Templex Root",
+		"description": "You have just started your long journey on Templex! Good luck!",
+		"show_toast": true,
+		"background": "minecraft:textures/blocks/gold_block.png",
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

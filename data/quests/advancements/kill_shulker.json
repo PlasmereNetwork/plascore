@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+						"type": "minecraft:shulker"
+					}
+			}
+		}
+	},
+	"parent": "quests:kill_phantom",
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": "Templex Quests: Shulker Shanker",
+		"description": "Kill a shulker!",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"rewards": {
+		"function": "quests:killed_shulker",
+		"experience": 100
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "quests:kill_shulker",
+	"display": {
+		"icon": {
+			"item": "minecraft:beetroot_soup"
+		},
+		"title": "Templex Quests: Meat Pie",
+		"description": "Throw all raw meat in a pile on the ground.",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"rewards": {
+		"function": "quests:meatpie",
+		"experience": 200
+	}
+}

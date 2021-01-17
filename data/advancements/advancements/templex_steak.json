@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_beef",
+					"count": 3
+				}
+			}
+		}
+	},
+	"parent": "advancements:templex_root",
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_beef"
+		},
+		"title": "A Templexian Meal",
+		"description": "Are you hungry for some adventure?",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"rewards": {
+		"experience": 1000
+	}
+}

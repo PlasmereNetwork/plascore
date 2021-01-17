@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:slept_in_bed"
+		}
+	},
+	"parent": "advancements:templex_root",
+	"display": {
+		"icon": {
+			"item": "minecraft:red_bed"
+		},
+		"title": "A Templexian Night",
+		"description": "Sleep under the Templexian moon.",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"rewards": {
+		"experience" : 100
+	}
+}

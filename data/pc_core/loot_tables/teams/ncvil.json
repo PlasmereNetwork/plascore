@@ -1,0 +1,314 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+	"text": "Dull Knife",
+	"color": "#888888",
+	"italic": false}
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 10,
+                "type":"uniform"
+              },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 12,
+                "type":"uniform"
+              },
+              "treasure": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+	"text": "Bamboo Blade",
+	"color": "#006600",
+	"italic": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+	"text": "Pointy Stick",
+	"color": "#cc6600",
+	"italic": false}
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 17,
+                "type":"uniform"
+              },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 6,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "stone_sword",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 2,
+                    "max": 13,
+                    "type":"uniform"
+                  },
+                  "treasure": false
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+	"text": "Cave Dagger",
+	"color": "#775435",
+	"italic": false}
+            }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "stone_sword",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+	"text": "Needle",
+	"color": "#bbbbbb",
+	"italic": false}
+            
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 16,
+                  "treasure": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 7,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "wooden_pickaxe",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+	"text": "Stonebreaker",
+	"color": "#775577",
+	"italic": false
+            }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 1,
+                    "max": 20,
+                    "type":"uniform"
+                  },
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wooden_pickaxe",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+	"text": "Dull Pick",
+	"color": "#aa8888",
+	"italic": false
+            }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 1,
+                    "max": 19,
+                    "type":"uniform"
+                  },
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "wooden_pickaxe",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+	"text": "Eco-Pickaxe",
+	"color": "#007700",
+	"italic": false
+            }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 1,
+                    "max": 16,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_shovel",
+          "weight": 3,
+          "functions": [
+		
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000,Enchantments:[{id:\"knockback\",lvl:4}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+	"text": "Mysterious Shovel",
+	"color": "#7700ff",
+	"italic": false
+            }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["Discovered by ", { "selector": "@s" }]
+              ],
+              "target": "this"
+            },
+{
+"function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 1,
+                    "max": 16,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+	}
+	
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4,
+        "type":"uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "oak_log",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 32,
+                "type":"uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sand",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 17,
+                "max": 60,
+                "type":"uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coal",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 16,
+                "type":"uniform"
+              }
+		}
+		
+            
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4,
+                "type":"uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

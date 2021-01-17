@@ -1,0 +1,747 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "weight": 9,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "iron_sword",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Magical Dagger",
+  "color": "#770099",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 36,
+                    "max": 45,
+                    "type":"uniform"
+                  },
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "iron_sword",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Holy Blade",
+  "color": "#ffff99",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 35,
+                    "max": 42,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 6,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "diamond_sword",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Assassin's Blade",
+  "color": "#7700ff",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 10,
+                    "max": 18,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "diamond_sword",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Gravitite Sword",
+  "color": "#ff0099",
+  "italic": false}                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 20,
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "diamond_sword",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Angelic Sword",
+  "color": "#ffffbb",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 21,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 4,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "trident",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Ancient Spear",
+  "color": "#3333aa",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 5,
+                    "max": 18,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "trident",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Morton's Fork",
+  "color": "#0000ff",
+  "italic": false}                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 10,
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "trident",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Devilish Pitchfork",
+  "color": "#ff0022",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 21,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 7,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "iron_axe",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Axe of Vindication",
+  "color": "#ccff00",
+  "italic": false}
+                },
+                {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"sharpness\",lvl:5}]}"
+            },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 20,
+                    "max": 24,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "iron_axe",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "The Village Slayer",
+  "color": "#cc5555",
+  "italic": false}
+                },
+                {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"sharpness\",lvl:5}]}"
+            },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 20,
+                    "max": 27,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "iron_axe",
+              "weight": 3,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Johnny's Revenge",
+  "color": "#00ff00",
+  "italic": false}
+                },
+                {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"sharpness\",lvl:5}]}"
+            },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 20,
+                    "max": 30,
+                    "type":"uniform"
+                  },
+                  "treasure": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 8,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "diamond_shovel",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Discount Bulldozer",
+  "color": "#ffffaa",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 19,
+                    "max": 24,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "iron_leggings",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Ornate Leggings",
+  "color": "#07ff99",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 28,
+                  "treasure": false
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "name": "iron_leggings",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "p a n t s",
+  "color": "#889911",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 32,
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 6,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "diamond_chestplate",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Bejeweled Chestplate",
+  "color": "#00ffff",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 24,
+                    "max": 32,
+                    "type":"uniform"
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "diamond_chestplate",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Magician's Armor",
+  "color": "#bbffaa",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 28,
+                  "treasure": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "diamond_chestplate",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+  "text": "Sorcerer's Robes",
+  "color": "#224499",
+  "italic": false}
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": 32,
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_pickaxe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 24,
+                "type":"uniform"
+              },
+              "treasure": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 30,
+                "type":"uniform"
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Pickaxe of §kMISSINGNO",
+  "color": "#ffcc00",
+  "italic": false}
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.4,
+                "type":"uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["What is this pickaxe?! Ask ", { "selector": "@s" }, "§r..."]
+              ],
+              "target": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_shovel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 14,
+              "treasure": true
+
+            },
+            {
+              "function": "minecraft:set_name",
+             "name": {
+  "text": "Mystical Shovel",
+  "color": "#0099ff",
+  "italic": false}
+            }
+            
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_axe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Mystical Axe",
+  "color": "#0099ff",
+  "italic": false}
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 16,
+              "treasure": true
+
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Gucci Shoes",
+  "color": "#5500aa",
+  "italic": false}
+            
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 16,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Hausemaster's Crystal-Proof Leggings",
+  "color": "#ff88cc",
+  "italic": false}
+            
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000,Enchantments:[{id:\"blast_protection\",lvl:4}]}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Mysterious Bow",
+  "color": "#7700ff",
+  "italic": false}
+            
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000,Enchantments:[{id:\"infinity\",lvl:1},{id:\"mending\",lvl:1}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["A legendary bow discovered by ", { "selector": "@s" }]
+              ],
+              "target": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trident",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "One Giant Leap",
+  "color": "#7777ff",
+  "italic": false}
+            
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.1,
+                "type":"uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000,Enchantments:[{id:\"riptide\",lvl:5}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["Use it wisely..."]
+              ],
+              "target": "this"
+            }
+          ]
+        },
+  {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+  "text": "Hell-Raven's Shield",
+  "color": "#ffcc00",
+  "italic": false}
+            
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1000,Enchantments:[{id:\"unbreaking\",lvl:10},{id:\"thorns\",lvl:4}],BlockEntityTag:{Patterns:[{Pattern:\"hhb\",Color:15},{Pattern:\"bt\",Color:4},{Pattern:\"mr\",Color:14},{Pattern:\"mc\",Color:15},{Pattern:\"flo\",Color:14},{Pattern:\"tt\",Color:15}],Base:4}}"
+            },
+            
+    {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["Created by Starmute"]
+              ],
+              "target": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3,
+        "type":"uniform"
+      },
+      "entries": [
+  {
+          "type": "minecraft:item",
+          "name": "book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 35,
+                "type":"uniform"
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blaze_rod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 14,
+                "type":"uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coal_block",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10,
+                "type":"uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obsidian",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 40,
+                "p": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lapis_lazuli",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 50,
+                "p": 0.5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

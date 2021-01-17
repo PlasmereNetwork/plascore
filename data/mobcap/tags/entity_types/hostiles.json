@@ -1,0 +1,24 @@
+{
+        "values": [
+                "#raiders",
+                "#skeletons",
+                "cave_spider",
+                "creeper",
+                "enderman",
+                "ghast",
+                "guardian",
+                "hoglin",
+                "husk",
+                "magma_cube",
+                "phantom",
+                "piglin",
+                "shulker",
+                "silverfish",
+                "spider",
+                "vex",
+                "zoglin",
+                "zombie",
+                "zombie_villager",
+                "zombified_piglin"
+        ]
+}

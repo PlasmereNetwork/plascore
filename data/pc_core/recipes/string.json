@@ -1,0 +1,12 @@
+{
+"type": "crafting_shaped",
+"pattern": ["X"],
+	"key": {
+		"X": {"item": "minecraft:white_wool"
+		}
+		},
+"result": {
+		"item": "string",
+		"count": 4
+		}
+}

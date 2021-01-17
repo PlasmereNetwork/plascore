@@ -1,0 +1,1 @@
+execute as @a run tellraw @a [{"text":"<"},{"selector":"@s"},{"text":"> f"}]

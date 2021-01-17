@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"initialize": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:snow_golem"
+				}
+			}
+		}
+	},
+	"parent": "advancements:templex_root",
+	"display": {
+		"icon": {
+			"item": "minecraft:snow_block"
+		},
+		"title": "Frosty The Snowman",
+		"description": "Do you want to build a snowman?",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"rewards": {
+		"experience": 100
+	}
+}
