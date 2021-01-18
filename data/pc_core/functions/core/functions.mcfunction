@@ -37,8 +37,6 @@ execute as @a[scores={TableFlip=1..}] run function pc_core:regulars/tableflip
 execute as @a[scores={Vote=1..}] run function pc_core:essentials/vote
 execute as @a[scores={Discord=1..}] run function pc_core:essentials/discord
 execute as @a[scores={Donate=1..}] run function pc_core:essentials/donate
-# SHRUG
-execute as @a[scores={Shrug=1..}] run function pc_core:regulars/shrug
 # UUID USE
 #- See
 execute as @a[scores={SeeAllUUIDs=1..}] run function pc_core:essentials/seeuuids

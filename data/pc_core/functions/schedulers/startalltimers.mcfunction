@@ -7,6 +7,6 @@ function pc_core:schedulers/day_schedule
 
 schedule function pc_core:schedulers/discord_schedule 200s
 schedule function pc_core:schedulers/vote_schedule 500s
-schedule function pc_core:schedulers/timely 1s
+schedule function pc_core:core/timely 1s
 
 scoreboard players set 1s Database 0
