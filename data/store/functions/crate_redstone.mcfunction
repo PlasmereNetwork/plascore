@@ -12,7 +12,7 @@ execute as @s[tag=redstone_crate] if score @s items < 4 items run tag @s remove 
 execute as @s[tag=!redstone_crate] run tellraw @s [{"text":"Sorry, but you do not have enough Vote Tokens to do that!","color":"red"}]
 
 execute as @s[tag=redstone_crate] run clear @s minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}} 4
-execute as @s[tag=redstone_crate] run give @s minecraft:chest{display:{Name:"{\"text\":\"\\u00A7cRedstone \\u00A75Crate\"}",Lore:["\"???\""]},BlockEntityTag:{LootTable:"templex_standard:crates/redstone"}}
+execute as @s[tag=redstone_crate] run give @s minecraft:chest{display:{Name:"{\"text\":\"\\u00A7cRedstone \\u00A75Crate\"}",Lore:["\"???\""]},BlockEntityTag:{LootTable:"pc_core:crates/redstone"}}
 execute as @s[tag=redstone_crate] run tellraw @s [{"text":"There you go!","color":"gold"}]
 
 execute as @s[tag=redstone_crate] run tag @s remove redstone_crate

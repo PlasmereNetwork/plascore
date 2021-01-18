@@ -4,19 +4,10 @@ execute as @p[scores={DiaVotes=5..}] at @s run scoreboard players remove @s DiaV
 execute as @a[scores={CurrVotes=0..},tag=!VoteTagged] at @s run tag @s add VoteTagged
 execute as @a[tag=!VoteTagged] at @s run scoreboard players set @s CurrVotes 0
 ## Functions
-function pc_core:legacy_functions
-function pc_core:votely_check
-function pc_core:crates
-function pc_core:nloop
-#function mobcap:loop
-function sq:main
+function pc_core:core/functions
+function pc_core:utils/vote/votely_check
+function pc_core:utils/givers/other/crates
+function pc_core:core/nloop
 function quests:trigger_test
-## Timers
-#scoreboard players add Seconds Database 1
-#execute if score Seconds Database matches 60 run function pc_core:mob_rate
-#execute if score Seconds Database matches 60 run scoreboard players add Minutes Database 1
-#execute if score Seconds Database matches 60 run scoreboard players set Seconds Database 0
-#execute if score Minutes Database matches 60 if score Seconds Database matches 0 run scoreboard players add Hours Database 1
-#execute if score Minutes Database matches 60 if score Seconds Database matches 0 run scoreboard players set Minutes Database 0
 ### Has to be last.
-schedule function pc_core:timely 1s
+schedule function pc_core:core/timely 1s

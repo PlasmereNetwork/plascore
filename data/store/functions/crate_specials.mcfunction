@@ -12,7 +12,7 @@ execute as @s[tag=specials_crate] if score @s items < 7 items run tag @s remove 
 execute as @s[tag=!specials_crate] run tellraw @s [{"text":"Sorry, but you do not have enough Vote Tokens to do that!","color":"red"}]
 
 execute as @s[tag=specials_crate] run clear @s minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}} 7
-execute as @s[tag=specials_crate] run give @s minecraft:chest{display:{Name:"{\"text\":\"\\u00A7bSpecials \\u00A75Crate\"}",Lore:["\"???\""]},BlockEntityTag:{LootTable:"templex_standard:crates/specials"}}
+execute as @s[tag=specials_crate] run give @s minecraft:chest{display:{Name:"{\"text\":\"\\u00A7bSpecials \\u00A75Crate\"}",Lore:["\"???\""]},BlockEntityTag:{LootTable:"pc_core:crates/specials"}}
 execute as @s[tag=specials_crate] run tellraw @s [{"text":"There you go!","color":"gold"}]
 
 execute as @s[tag=specials_crate] run tag @s remove specials_crate

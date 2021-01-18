@@ -4,8 +4,8 @@ tellraw @a [{"text":"VoteParty","color":"gold"},{"text":" : ","color":"dark_gray
 # Gift.
 scoreboard players add @a CurrVotes 1
 give @a minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}} 2
-execute as @a run function pc_core:vp_payout
-execute as @r run function pc_core:vp_diamond
+execute as @a run function pc_core:utils/vote/vp_payout
+execute as @r run function pc_core:utils/vote/vp_diamond
 # Setup.
 scoreboard players add @a Karma 500
 scoreboard players add @a VP 1

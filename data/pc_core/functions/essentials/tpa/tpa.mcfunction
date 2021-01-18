@@ -23,6 +23,6 @@ execute as @s[tag=TPAing,tag=!GotTPA] run scoreboard players set @s TPAFind 0
 execute as @s[tag=TPAing,tag=!GotTPA] run tag @s add GotTPA
 execute as @s[tag=TPAing,tag=GotTPA] run scoreboard players add @s TPARequest 1
 # Resets
-execute as @s[scores={TPAFind=60}] run function pc_core:tpa_request_fail
-execute as @s[scores={TPARequest=300}] run function pc_core:tpa_fail
+execute as @s[scores={TPAFind=60}] run function pc_core:essentials/tpa/tpa_request_fail
+execute as @s[scores={TPARequest=300}] run function pc_core:essentials/tpa/tpa_fail
 

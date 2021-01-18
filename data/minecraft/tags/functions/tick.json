@@ -1,6 +1,6 @@
 {
 	"values": [
-		"templex_standard:new_player_test",
-		"templex_standard:l"
+		"pc_core:teams/new_player_test",
+		"pc_core:core/l"
 	]
 }

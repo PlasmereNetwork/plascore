@@ -1,3 +1,0 @@
-gamerule doMobSpawning true
-schedule function pc_core:mob_off 5s
-w @a[tag=Listener] Mobs are now spawning...

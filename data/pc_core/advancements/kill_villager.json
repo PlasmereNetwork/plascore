@@ -19,7 +19,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "pc_core:kill_villager",
+		"function": "pc_core:advancements/kill_villager",
 		"experience": 10
 	}
 }

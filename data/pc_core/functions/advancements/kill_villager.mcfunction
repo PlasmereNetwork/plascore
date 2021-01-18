@@ -5,4 +5,4 @@ scoreboard players add @s Karma 5
 scoreboard players add @s TC 1
 give @s emerald
 # Resetting.
-advancement revoke @s only pc_core:kill_villager
+advancement revoke @s only pc_core:advancements/kill_villager
