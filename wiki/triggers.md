@@ -2,14 +2,6 @@
 ## STORE
 ### Store
 Prints a list of everything you can buy from the store menu.
-### Buy_Crate_Basic
-Buys a Basic Crate.
-### Buy_Crate_Rare
-Buys a Rare Crate.
-### Buy_Crate_Epic
-Buys an Epic Crate.
-### Buy_Crate_Cosmic
-Buys a Cosmic Crate.
 ### Crate_Redstone
 Buys a Redstone Crate.
 ### Crate_Building

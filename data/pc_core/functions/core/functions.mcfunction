@@ -1,10 +1,6 @@
 ### PRE-FUNCTIONS ###
 # STORE
 execute as @a[scores={Store=1..}] run function store:store
-execute as @a[scores={Buy_Crate_Basic=1..}] run function store:buy_crate_basic
-execute as @a[scores={Buy_Crate_Rare=1..}] run function store:buy_crate_rare
-execute as @a[scores={Buy_Crate_Epic=1..}] run function store:buy_crate_epic
-execute as @a[scores={Buy_Crate_Cosmic=1..}] run function store:buy_crate_cosmic
 execute as @a[scores={Crate_Redstone=1..}] run function store:crate_redstone
 execute as @a[scores={Crate_Building=1..}] run function store:crate_building
 execute as @a[scores={Crate_Farming=1..}] run function store:crate_farming

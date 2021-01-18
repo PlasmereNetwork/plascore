@@ -1,11 +1,5 @@
 bossbar add plasmere "\u00a72Vote Party \u00a78- \u00a760\u00a78/\u00a7650"
 
-scoreboard objectives add Store trigger
-scoreboard objectives add Buy_Crate_Basic trigger
-scoreboard objectives add Buy_Crate_Rare trigger
-scoreboard objectives add Buy_Crate_Epic trigger
-scoreboard objectives add Buy_Crate_Cosmic trigger
-
 scoreboard objectives add dim1 dummy
 scoreboard objectives add dim2 dummy
 scoreboard objectives add dim3 dummy
@@ -20,6 +14,7 @@ scoreboard objectives add items dummy
 
 scoreboard objectives add random dummy
 
+scoreboard objectives add Store trigger
 scoreboard objectives add Crate_Farming trigger
 scoreboard objectives add Crate_Redstone trigger
 scoreboard objectives add Crate_Building trigger
