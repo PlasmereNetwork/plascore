@@ -209,7 +209,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "diamond_axe",
+              "name": "netherite_axe",
               "weight": 3,
               "functions": [
                 {
@@ -236,7 +236,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_axe",
+              "name": "diamond_axe",
               "weight": 3,
               "functions": [
                 {
@@ -316,7 +316,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "diamond_shovel",
+              "name": "netherite_shovel",
               "weight": 2,
               "functions": [
                 {
@@ -787,7 +787,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "iron_sword",
+          "name": "diamond_sword",
           "weight": 2,
           "functions": [
             {
@@ -1345,7 +1345,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_axe",
+              "name": "diamond_axe",
               "weight": 3,
               "functions": [
                 {
@@ -1448,7 +1448,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_shovel",
+              "name": "netherite_shovel",
               "weight": 2,
               "functions": [
                 {
@@ -1862,7 +1862,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "iron_sword",
+          "name": "diamond_sword",
           "weight": 2,
           "functions": [
             {
@@ -2066,13 +2066,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:diamond_sword",
           "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-  "text": "Dull Knife",
+  "text": "Dull Diamond Dagger",
   "color": "#888888",
   "italic": false}
             },
@@ -2089,7 +2089,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "wooden_sword",
+          "name": "netherite_sword",
           "weight": 3,
           "functions": [
             {
@@ -2104,7 +2104,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-  "text": "Bamboo Blade",
+  "text": "Steel Saber",
   "color": "#006600",
   "italic": false}
             }
@@ -2112,13 +2112,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "wooden_sword",
+          "name": "diamond_sword",
           "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-  "text": "Pointy Stick",
+  "text": "Un-Sticky Stick",
   "color": "#cc6600",
   "italic": false}
             },
@@ -2139,7 +2139,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "diamond_sword",
               "weight": 1,
               "functions": [
                 {
@@ -2162,7 +2162,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -2188,7 +2188,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "wooden_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 1,
               "functions": [
                 {
@@ -2212,13 +2212,13 @@
             },
             {
               "type": "minecraft:item",
-              "name": "wooden_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 1,
               "functions": [
                 {
                   "function": "minecraft:set_name",
                   "name": {
-  "text": "Dull Pick",
+  "text": "Un-Dull Pick",
   "color": "#aa8888",
   "italic": false
             }
@@ -2236,7 +2236,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "wooden_pickaxe",
+              "name": "netherite_pickaxe",
               "weight": 1,
               "functions": [
                 {
@@ -2262,7 +2262,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stone_shovel",
+          "name": "diamond_shovel",
           "weight": 3,
           "functions": [
     
@@ -2314,7 +2314,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "diamond_sword",
               "weight": 1,
               "functions": [
                 {
@@ -2337,7 +2337,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -2506,7 +2506,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_axe",
+              "name": "netherite_axe",
               "weight": 3,
               "functions": [
                 {
@@ -2533,7 +2533,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_axe",
+              "name": "diamond_axe",
               "weight": 3,
               "functions": [
                 {
@@ -2616,7 +2616,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_leggings",
+              "name": "diamond_leggings",
               "weight": 2,
               "functions": [
                 {
@@ -2636,7 +2636,7 @@
 
             {
               "type": "minecraft:item",
-              "name": "iron_leggings",
+              "name": "diamond_leggings",
               "weight": 2,
               "functions": [
                 {
@@ -2724,7 +2724,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "iron_pickaxe",
+          "name": "diamond_pickaxe",
           "weight": 3,
           "functions": [
             {
@@ -2962,7 +2962,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -2985,7 +2985,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "golden_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3014,7 +3014,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "diamond_sword",
               "weight": 3,
               "functions": [
                 {
@@ -3037,7 +3037,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "netherite_sword",
               "weight": 3,
               "functions": [
                 {
@@ -3055,7 +3055,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "diamond_sword",
               "weight": 3,
               "functions": [
                 {
@@ -3084,7 +3084,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 3,
               "functions": [
                 {
@@ -3107,7 +3107,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 3,
               "functions": [
                 {
@@ -3136,7 +3136,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "golden_leggings",
+              "name": "diamond_leggings",
               "weight": 2,
               "functions": [
                 {
@@ -3178,7 +3178,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "golden_leggings",
+              "name": "diamond_leggings",
               "weight": 2,
               "functions": [
                 {
@@ -3203,7 +3203,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "golden_chestplate",
+              "name": "diamond_chestplate",
               "weight": 2,
               "functions": [
                 {
@@ -3245,13 +3245,13 @@
             },
             {
               "type": "minecraft:item",
-              "name": "golden_chestplate",
+              "name": "netherite_chestplate",
               "weight": 2,
               "functions": [
                 {
                   "function": "minecraft:set_name",
                   "name": {
-  "text": "Master's Armor",
+  "text": "Mixter's Armor",
   "color": "#442277",
   "italic": false}
                 },
@@ -3437,21 +3437,21 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
                   "function": "minecraft:set_name",
                   "name": {
-  "text": "Cobblestone Broadsword",
+  "text": "Catter's Legendary Broadsword",
   "color": "#777777",
   "italic": false}
                 },
                 {
                   "function": "minecraft:enchant_with_levels",
                   "levels": {
-                    "min": 9,
-                    "max": 20,
+                    "min": 25,
+                    "max": 30,
                     "type":"uniform"
                   },
                   "treasure": true
@@ -3460,7 +3460,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "iron_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3483,7 +3483,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stone_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3512,7 +3512,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "diamond_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3535,7 +3535,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3555,7 +3555,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "diamond_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3578,7 +3578,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_sword",
+              "name": "netherite_sword",
               "weight": 1,
               "functions": [
                 {
@@ -3648,7 +3648,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iron_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 1,
               "functions": [
                 {
@@ -3671,7 +3671,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_pickaxe",
+              "name": "diamond_pickaxe",
               "weight": 1,
               "functions": [
                 {
@@ -3694,7 +3694,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "iron_pickaxe",
+              "name": "netherite_pickaxe",
               "weight": 1,
               "functions": [
                 {
@@ -3788,7 +3788,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "golden_helmet",
+          "name": "diamond_helmet",
           "weight": 2,
           "functions": [
             {
