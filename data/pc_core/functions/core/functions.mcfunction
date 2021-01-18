@@ -7,6 +7,7 @@ execute as @a[scores={Crate_Farming=1..}] run function store:crate_farming
 execute as @a[scores={Crate_Ores=1..}] run function store:crate_ores
 execute as @a[scores={Crate_Nether=1..}] run function store:crate_nether
 execute as @a[scores={Crate_Specials=1..}] run function store:crate_specials
+execute as @a[scores={Crate_Seventeen=1..}] run function store:crate_seventeen
 # RESET
 execute as @a[scores={TriggerReset=1..}] run function pc_core:essentials/trigger_reset
 # TELLRAW
