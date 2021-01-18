@@ -27,6 +27,9 @@ execute as @a[scores={Survival=1..},tag=t.ingame] run scoreboard players enable 
 # VIEW
 execute as @a[scores={ViewWalkTime=1..}] run function pc_core:essentials/view/view_walk_time
 execute as @a[scores={ViewKarma=1..}] run function pc_core:essentials/view/view_karma
+# AFK
+execute as @a[scores={AFK=1..},tag=!pc.afk] run function pc_core:essentials/afk
+execute as @a[scores={AFK=1..},tag=pc.afk] run function pc_core:essentials/afk2
 # LINKS
 execute as @a[scores={Vote=1..}] run function pc_core:essentials/vote
 execute as @a[scores={Discord=1..}] run function pc_core:essentials/discord
