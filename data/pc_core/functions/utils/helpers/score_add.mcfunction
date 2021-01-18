@@ -1,4 +1,4 @@
-bossbar add plasmere "\u00a72Vote Party \u00a78- \u00a760\u--a78/\u00a7650"
+bossbar add plasmere "\u00a72Vote Party \u00a78- \u00a760\u00a78/\u00a7650"
 
 scoreboard objectives add Store trigger
 scoreboard objectives add Buy_Crate_Basic trigger
