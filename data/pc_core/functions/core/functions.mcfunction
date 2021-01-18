@@ -30,6 +30,9 @@ execute as @a[scores={ViewKarma=1..}] run function pc_core:essentials/view/view_
 # AFK
 execute as @a[scores={AFK=1..},tag=!pc.afk] run function pc_core:essentials/afk
 execute as @a[scores={AFK=1..},tag=pc.afk] run function pc_core:essentials/afk2
+# CHAT EMOTES
+execute as @a[scores={Shrug=1..}] run function pc_core:regulars/shrug
+execute as @a[scores={TableFlip=1..}] run function pc_core:regulars/tableflip
 # LINKS
 execute as @a[scores={Vote=1..}] run function pc_core:essentials/vote
 execute as @a[scores={Discord=1..}] run function pc_core:essentials/discord
