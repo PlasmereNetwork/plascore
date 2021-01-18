@@ -28,6 +28,7 @@ scoreboard objectives add Crate_Nether trigger
 scoreboard objectives add Crate_Specials trigger
 
 scoreboard objectives add Bugs trigger
+scoreboard objectives add Buy_5000XP trigger
 scoreboard objectives add Buy_500XP trigger
 scoreboard objectives add Buy_50XP trigger
 scoreboard objectives add BuyRTP trigger
