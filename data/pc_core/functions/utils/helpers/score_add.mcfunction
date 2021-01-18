@@ -31,6 +31,7 @@ scoreboard objectives add Bugs trigger
 scoreboard objectives add Buy_5000XP trigger
 scoreboard objectives add Buy_500XP trigger
 scoreboard objectives add Buy_50XP trigger
+scoreboard objectives add Shulker trigger
 scoreboard objectives add BuyRTP trigger
 #scoreboard objectives add Contest trigger
 scoreboard objectives add Diamond minecraft.mined:minecraft.diamond_ore
@@ -52,7 +53,6 @@ scoreboard objectives add SeeAllUUIDs trigger
 scoreboard objectives add SetHome trigger
 scoreboard objectives add SHome trigger
 scoreboard objectives add Shrug trigger
-#scoreboard objectives add Shulker trigger
 scoreboard objectives add sleep dummy
 scoreboard objectives add Spawn trigger
 scoreboard objectives add SpawnPoint trigger
