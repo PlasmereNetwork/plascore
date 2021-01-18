@@ -43,6 +43,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 8,
                 "max": 20
               }
@@ -58,6 +59,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 8,
                 "max": 20
               }
@@ -73,6 +75,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 24,
                 "max": 48
               }
@@ -88,6 +91,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 1,
                 "max": 3
               }
@@ -103,6 +107,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 12,
                 "max": 32
               }
@@ -118,6 +123,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 12,
                 "max": 32
               }
@@ -133,6 +139,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 12,
                 "max": 32
               }
@@ -160,6 +167,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 3,
                 "max": 12
               }
@@ -175,6 +183,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 3,
                 "max": 8
               }
@@ -190,6 +199,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 4,
                 "max": 12
               }
@@ -205,6 +215,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 12,
                 "max": 32
               }
@@ -220,6 +231,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 8,
                 "max": 20
               }
