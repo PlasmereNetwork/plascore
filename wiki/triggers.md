@@ -1,4 +1,3 @@
-# FUNCTIONS
 ## STORE
 ### Store
 Prints a list of everything you can buy from the store menu.
