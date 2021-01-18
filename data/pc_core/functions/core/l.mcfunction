@@ -1,8 +1,5 @@
 ### REPEATED COMMANDS ###
 execute as @a[gamemode=!spectator,tag=PO] run function pc_core:particles
-execute as @p[nbt={Sleeping:1b}] if score IsSleepingBool Database matches 0 run tag @s add DoSleepVote
-execute as @p[tag=DoSleepVote] if score IsSleepingBool Database matches 0 run scoreboard players set IsSleepingBool 1
-execute as @p[tag=DoSleepVote] at @s run function pc_core:vs_m
 ### FUNCTIONS ###
 # DONATOR PERKS
 execute as @a[scores={Secret=1..},tag=special] run function pc_core:specials/zelda

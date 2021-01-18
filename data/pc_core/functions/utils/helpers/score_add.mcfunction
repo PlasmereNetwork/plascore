@@ -33,7 +33,6 @@ scoreboard objectives add Buy_500XP trigger
 scoreboard objectives add Buy_50XP trigger
 scoreboard objectives add Shulker trigger
 scoreboard objectives add BuyRTP trigger
-#scoreboard objectives add Contest trigger
 scoreboard objectives add Diamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add DiamondTime dummy
 scoreboard objectives add Die trigger
@@ -42,16 +41,12 @@ scoreboard objectives add Donate trigger
 scoreboard objectives add Firework trigger
 scoreboard objectives add Help trigger
 scoreboard objectives add Home trigger
-scoreboard objectives add LoadChunks trigger
-scoreboard objectives add Lock trigger
 scoreboard objectives add Login minecraft.custom:minecraft.leave_game
-#scoreboard objectives add Mall trigger
 scoreboard objectives add RTP trigger
 scoreboard objectives add Rules trigger
 scoreboard objectives add Secret trigger
 scoreboard objectives add SeeAllUUIDs trigger
 scoreboard objectives add SetHome trigger
-scoreboard objectives add SHome trigger
 scoreboard objectives add Shrug trigger
 scoreboard objectives add sleep dummy
 scoreboard objectives add Spawn trigger
@@ -59,7 +54,6 @@ scoreboard objectives add SpawnPoint trigger
 scoreboard objectives add Survival trigger
 scoreboard objectives add Taunt trigger
 scoreboard objectives add ToggleParticle trigger
-scoreboard objectives add ToggleSpam trigger
 scoreboard objectives add TPA trigger
 scoreboard objectives add TPAccept trigger
 scoreboard objectives add TPAFind dummy
@@ -71,8 +65,6 @@ scoreboard objectives add Tutorial trigger
 scoreboard objectives add ViewKarma trigger
 scoreboard objectives add ViewWalkTime trigger
 scoreboard objectives add Vote trigger
-#scoreboard objectives add VoteDay trigger
-#scoreboard objectives add VoteNight trigger
 scoreboard objectives add ZeldaTime dummy
 scoreboard objectives add SetHome trigger
 # Others.
