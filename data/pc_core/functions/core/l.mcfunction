@@ -20,3 +20,5 @@ execute if score IB Database >= 1 Database run function pc_core:item_cleanup
 kill @a[tag=die]
 #kill @e[type=tnt]
 kill @e[type=tnt_minecart]
+### NEW PLAYERS ###
+function pc_core:teams/new_player_test
