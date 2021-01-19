@@ -17,5 +17,5 @@ execute as @s[tag=seventeen_crate] run tellraw @s [{"text":"There you go!","colo
 
 execute as @s[tag=seventeen_crate] run tag @s remove seventeen_crate
 
-scoreboard players reset @s Crate_Specials
-scoreboard players enable @a Crate_Specials
+scoreboard players reset @s Crate_Seventeen
+scoreboard players enable @a Crate_Seventeen
