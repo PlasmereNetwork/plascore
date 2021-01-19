@@ -19,7 +19,6 @@ tag @s add POed
 # Tellraws stuff.
 tellraw @a [{"selector":"@s","color":"green"},{"text":" is a new player","color":"red"},{"text":"!","color":"dark_gray"},{"text":"\nWelcome to ","color":"red"},{"text":"Plasmere","color":"red"},{"text":", ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":"!","color":"dark_gray"},{"text":"\nWe have now had ","color":"red"},{"score":{"name":"Players-This-Reset","objective":"Stats"},"color":"gold"},{"text":" players join this version of ","color":"red"},{"text":"Vanilla","color":"dark_aqua"},{"text":"! \u00A7b(Vanilla \u00A7bv21)","color":"dark_gray"}]
 tellraw @s [{"text":"Please do \u00A7b/trigger Tutorial \u00A7ato get started!","color":"green"}]
-tellraw @s [{"text":"Also, \u00A7b/trigger Bugs \u00A7ais pretty useful to!","color":"green"}]
 # Gives starter items.
 give @s wooden_sword{display:{Name:"{\"text\":\"Foam Dagger\",\"color\":\"gold\"}",Lore:["Should it bend this much?"]},Enchantments:[{id:"sharpness",lvl:3}]} 1
 give @s bread{display:{Name:"{\"text\":\"Mana\",\"color\":\"red\"}",Lore:["Tastes stale... :/"]}} 10
