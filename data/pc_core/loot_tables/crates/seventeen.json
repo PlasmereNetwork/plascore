@@ -120,6 +120,22 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
+          "name": "minecraft:copper_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 12,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
           "name": "minecraft:lightly_weathered_copper_block",
           "functions": [
             {
@@ -137,6 +153,38 @@
           "weight": 5,
           "quality": 1,
           "name": "minecraft:semi_weathered_copper_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 12,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:calcite",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 12,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:tuff",
           "functions": [
             {
               "function": "set_count",
@@ -234,8 +282,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 8,
-                "max": 20
+                "min": 4,
+                "max": 10
               }
             }
           ]
