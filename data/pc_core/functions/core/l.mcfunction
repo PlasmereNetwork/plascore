@@ -21,4 +21,4 @@ kill @a[tag=die]
 #kill @e[type=tnt]
 kill @e[type=tnt_minecart]
 ### NEW PLAYERS ###
-function pc_core:teams/new_player_test
+function pc_core:utils/new_player_test
