@@ -298,8 +298,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 2,
-                "max": 9
+                "min": 3,
+                "max": 12
               }
             }
           ]
@@ -308,14 +308,14 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
-          "name": "minecraft:lichen",
+          "name": "minecraft:glow_lichen",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 8,
-                "max": 28
+                "min": 4,
+                "max": 9
               }
             }
           ]
