@@ -290,6 +290,38 @@
         },
         {
           "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:glow_ink_sac",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:lichen",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 8,
+                "max": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 3,
           "quality": 1,
           "name": "minecraft:sculk_sensor",
