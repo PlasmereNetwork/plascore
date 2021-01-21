@@ -6,7 +6,7 @@ tellraw @s [{"text":"\u00A7aWant to buy a \u00A76Building \u00A7aCrate? \u00A76[
 tellraw @s [{"text":"\u00A7aWant to buy an \u00A78Ores \u00A7aCrate? \u00A76[1 for 8 Vote Tokens] \u00A7e[Click]","hoverEvent":{"action":"show_text","value":"\u00A77Go mining for gems, but in a crate!"},"clickEvent":{"action":"run_command","value":"/trigger Crate_Ores set 1"}}]
 tellraw @s [{"text":"\u00A7aWant to buy a \u00A74Nether \u00A7aCrate? \u00A76[1 for 9 Vote Tokens] \u00A7e[Click]","hoverEvent":{"action":"show_text","value":"\u00A77This crates holds the new 1.16 nether items!"},"clickEvent":{"action":"run_command","value":"/trigger Crate_Nether set 1"}}]
 tellraw @s [{"text":"\u00A7aWant to buy a \u00A7bSpecials \u00A7aCrate? \u00A76[1 for 7 Vote Tokens] \u00A7e[Click]","hoverEvent":{"action":"show_text","value":"\u00A77Find unique tools and weapons in this crate!"},"clickEvent":{"action":"run_command","value":"/trigger Crate_Specials set 1"}}]
-tellraw @s [{"text":"\u00A7aWant to buy a \u00A7d1.17 \u00A7aCrate? \u00A76[1 for 22 Vote Tokens] \u00A7e[Click]","hoverEvent":{"action":"show_text","value":"\u00A77Find 1.17 blocks/items - like Sculk and Copper - in this crate!"},"clickEvent":{"action":"run_command","value":"/trigger Crate_Seventeen set 1"}}]
+tellraw @s [{"text":"\u00A7aWant to buy a \u00A7d1.17 \u00A7aCrate? \u00A76[1 for (1.)17 Vote Tokens] \u00A7e[Click]","hoverEvent":{"action":"show_text","value":"\u00A77Find 1.17 blocks/items - like Sculk and Copper - in this crate!"},"clickEvent":{"action":"run_command","value":"/trigger Crate_Seventeen set 1"}}]
 
 scoreboard players reset @s Store
 scoreboard players enable @a Store
