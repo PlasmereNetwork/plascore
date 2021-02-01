@@ -33,4 +33,4 @@ script load spleef
 tellraw @s "\u00a72All scripts loaded successfully!"
 
 scoreboard players set @s StartScripts 0
-scoreboard players enable @a[tag=op] StartScripts
+scoreboard players enable @a[tag=OP] StartScripts
