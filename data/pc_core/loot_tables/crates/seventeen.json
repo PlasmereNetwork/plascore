@@ -104,7 +104,7 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
-          "name": "minecraft:weathered_copper_block",
+          "name": "minecraft:weathered_copper",
           "functions": [
             {
               "function": "set_count",
@@ -136,7 +136,7 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
-          "name": "minecraft:exposed_copper_block",
+          "name": "minecraft:exposed_copper",
           "functions": [
             {
               "function": "set_count",
@@ -152,7 +152,7 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
-          "name": "minecraft:oxidized_copper_block",
+          "name": "minecraft:oxidized_copper",
           "functions": [
             {
               "function": "set_count",
