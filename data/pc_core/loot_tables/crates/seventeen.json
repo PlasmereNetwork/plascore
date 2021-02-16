@@ -298,8 +298,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 3,
-                "max": 12
+                "min": 6,
+                "max": 18
               }
             }
           ]
@@ -363,7 +363,23 @@
               "count": {
                 "type": "uniform",
                 "min": 1,
-                "max": 2
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:big_dripleaf",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 3,
+                "max": 8
               }
             }
           ]
@@ -378,8 +394,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 16,
-                "max": 32
+                "min": 32,
+                "max": 64
               }
             }
           ]
@@ -394,8 +410,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 10,
-                "max": 20
+                "min": 24,
+                "max": 48
               }
             }
           ]
@@ -410,8 +426,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 2,
-                "max": 5
+                "min": 4,
+                "max": 10
               }
             }
           ]
@@ -426,8 +442,8 @@
               "function": "set_count",
               "count": {
                 "type": "uniform",
-                "min": 14,
-                "max": 26
+                "min": 16,
+                "max": 32
               }
             }
           ]
