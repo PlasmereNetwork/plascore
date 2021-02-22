@@ -2,6 +2,7 @@ function pc_core:schedulers/60minutes
 function pc_core:schedulers/30seconds
 function pc_core:schedulers/5minutes
 function pc_core:schedulers/1second
+function pc_core:schedulers/30seconds
 
 function pc_core:schedulers/day_schedule
 
