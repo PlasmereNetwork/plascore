@@ -1,50 +1,16 @@
 # Add.
-team add Owner
-team add SysManager
-team add Manager
-team add Sysadmin
-team add HeadAdmin
-team add Admin
-team add Mod
-team add Builder
-team add Helper
-team add Developer
+team add 100
+team add 101
+team add 102
+team add 103
+team add 104
+team add 105
+team add 110
+team add 111
+team add 112
+team add 113
+team add 
 
-team add Plasmian
-team add YT
-team add Streamer
-team add NC
-team add Alchemist
-team add DiscordP
-
-team add Villager
-team add Warrior
-team add Expeditioner
-team add Master
-team add Knight
-team add Magician
-team add Sorcerer
-team add Noble
-team add Viscount
-team add Duke
-team add Archduke
-team add King
-
-#team add DAssassin
-#team add DLegend
-#team add DMortis
-
-team add Paladin
-team add Mage
-team add Unicorn
-team add Dragon
-
-team add MOD
-team add ADMIN
-# NPCs.
-team add GREEN
-team add GOLD
-team add LPURPLE
 # Color.
 team modify Owner color aqua
 team modify SysManager color gray
