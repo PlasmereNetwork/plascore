@@ -45,6 +45,7 @@ scoreboard objectives add SetHome trigger
 scoreboard objectives add Shrug trigger
 scoreboard objectives add sleep dummy
 scoreboard objectives add Spawn trigger
+scoreboard objectives add SetSpawn trigger
 scoreboard objectives add SpawnPoint trigger
 scoreboard objectives add Survival trigger
 scoreboard objectives add Taunt trigger

@@ -80,7 +80,6 @@ scoreboard players enable @a[tag=special] Taunt
 ### These must happen (in this order) at the end of the script
 tellraw @s [{"text":"\u00A76Trigger Reset System \u00A78: \u00A7aAll triggers have been re-enabled!","color":"green","italic":"false"}]
 tellraw @a[tag=OP] [{"text":"Trigger Reset System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" just reset all triggers.","color":"red"}]
-scoreboard players set @a[scores={TriggerReset=1..}] TriggerReset 0
 execute at @s run playsound minecraft:block.note_block.xylophone master @s
 tag @a[tag=InProtection] remove InProtection
 
