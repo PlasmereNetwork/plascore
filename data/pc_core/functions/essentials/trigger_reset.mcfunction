@@ -83,3 +83,7 @@ tellraw @a[tag=OP] [{"text":"Trigger Reset System","color":"gold"},{"text":" : "
 scoreboard players set @a[scores={TriggerReset=1..}] TriggerReset 0
 execute at @s run playsound minecraft:block.note_block.xylophone master @s
 tag @a[tag=InProtection] remove InProtection
+
+# Reset.
+scoreboard players reset @a TriggerReset
+scoreboard players enable @a TriggerReset
