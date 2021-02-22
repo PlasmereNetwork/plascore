@@ -9,7 +9,7 @@ team add 110
 team add 111
 team add 112
 team add 113
-team add 
+team add 120
 
 # Color.
 team modify Owner color aqua
