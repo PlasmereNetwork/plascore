@@ -46,6 +46,7 @@ execute as @a[scores={Home=1..}] run function pc_core:essentials/home
 execute as @a[scores={Die=1..}] run function pc_core:essentials/die
 execute as @a[scores={SpawnPoint=1..}] run function pc_core:essentials/spawnpoint
 # WARPS / TELEPORTATION
+execute as @a[scores={SetSpawn=1..}] run function pc_core:essentials/set_spawn
 execute as @a[scores={Spawn=1..}] run function pc_core:essentials/spawn
 execute as @a[scores={TPEnd=1..}] run function pc_core:essentials/try/tp_end_try
 execute as @a[scores={RTP=1..}] run function pc_core:essentials/try/rtp_try
