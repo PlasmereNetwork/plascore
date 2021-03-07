@@ -11,102 +11,108 @@ team add 112
 team add 113
 team add 120
 
+# Custom Roles (Add)
+team add 500
+team add 501
+team add 502
+team add 503
+team add 504
+
 # Color.
-team modify Owner color aqua
-team modify SysManager color gray
-team modify Manager color gray
-team modify HeadAdmin color gray
-team modify Mod color gray
-team modify Builder color gray
-team modify Helper color gray
-team modify Plasmian color gray
-team modify YT color dark_gray
-team modify Streamer color gray
-team modify NC color gray
-team modify Alchemist color gray
-team modify Developer color gray
-team modify DiscordP color gray
+team modify 100 color aqua
+team modify 113 color gray
+team modify 121 color gray
+team modify 122 color gray
+team modify 125 color gray
+team modify 300 color gray
+team modify 301 color dark_gray
+# team modify Streamer color gray
+team modify 712 color gray
+team modify 320 color gray
+team modify 120 color gray
+# team modify DiscordP color gray
 
-team modify MOD color gray
-team modify ADMIN color gray
 
-team modify Villager color gray
-team modify Warrior color gray
-team modify Expeditioner color gray
-team modify Master color gray
-team modify Knight color gray
-team modify Magician color gray
-team modify Sorcerer color gray
-team modify Noble color gray
-team modify Viscount color gray
-team modify Duke color gray
-team modify Archduke color gray
-team modify King color gray
+team modify 711 color gray
+team modify 710 color gray
+team modify 709 color gray
+team modify 708 color gray
+team modify 707 color gray
+team modify 706 color gray
+team modify 705 color gray
+team modify 704 color gray
+team modify 703 color gray
+team modify 702 color gray
+team modify 701 color gray
+team modify 700 color gray
 
-team modify DAssassin color gray
-team modify DLegend color gray
-team modify DMortis color gray
+# Custom roles
+team modify 500 color gray
+team modify 501 color gray
+team modify 502 color gray
+team modify 503 color gray
+team modify 504 color gray
 
-team modify Paladin color gray
-team modify Mage color gray
-team modify Unicorn color gray
-team modify Dragon color gray
+# team modify DAssassin color gray
+# team modify DLegend color gray
+# team modify DMortis color gray
+
+# team Jester not present (Team number 321, add if you want)
+# team Bard not present (Team number 313)
+# team Baren not present (Team number 312)
+# team Templexian not present (Team number 302)
+team modify 315 color gray
+team modify 314 color gray
+team modify 311 color gray
+team modify 310 color gray
+
 # Prefixes / Suffixes.
-team modify Owner prefix [{"text":"\u00A73Owner \u00A77"}]
-#team modify Owner suffix [{"text":" \u00A73Owner"}]
-team modify SysManager prefix [{"text":"Sys","color":"dark_gray"},{"text":"Manager ","color":"gold"}]
-team modify Manager prefix [{"text":"Manager ","color":"gold"}]
-team modify HeadAdmin prefix [{"text":"\u00A76Head \u00A7cAdmin \u00A77"}]
-team modify HeadBuilder prefix [{"text":"\u00A76Head \u00A72Builder \u00A77"}]
-team modify HeadBuilder suffix [{"text":" \u00A75Streamer"}]
-team modify Sysadmin prefix [{"text":"\u00A76Sys\u00A7cadmin \u00A77"}]
-team modify SysYT prefix [{"text":"\u00A74You\u00A76Tuber \u00A77"}]
-team modify SysYT suffix [{"text":" \u00A76Sys\u00A7cadmin"}]
-team modify Admin prefix [{"text":"\u00A7cAdmin \u00A77"}]
-team modify Mod prefix [{"text":"\u00A74Mod \u00A77"}]
-team modify Builder prefix [{"text":"\u00A72Builder \u00A77"}]
-team modify Developer prefix [{"text":"\u00A75Developer \u00A77"}]
-team modify Developer suffix [{"text":"\u00A7r"}]
-team modify Helper prefix [{"text":"\u00A79Helper \u00A77"}]
+team modify 100 prefix [{"text":"\u00A73Owner \u00A77"}]
+# team modify 100 suffix [{"text":" \u00A73Owner"}]
+team modify 113 prefix [{"text":"Sys","color":"dark_gray"},{"text":"Admin ","color":"gold"}]
+# ??? team modify 113 prefix [{"text":"\u00A76Sys\u00A7cadmin \u00A77"}]
+team modify 111 prefix [{"text":"\u00A7cAdmin \u00A77"}]
+team modify 121 prefix [{"text":"\u00A74Mod \u00A77"}]
+team modify 122 prefix [{"text":"\u00A72Builder \u00A77"}]
+team modify 120 prefix [{"text":"\u00A75Developer \u00A77"}]
+team modify 120 suffix [{"text":"\u00A7r"}]
+team modify 125 prefix [{"text":"\u00A79Helper \u00A77"}]
 
-team modify Plasmian prefix [{"text":"\u00A7cPlasmian \u00A77"}]
+team modify 300 prefix [{"text":"\u00A7cPlasmian \u00A77"}]
 
-team modify Paladin prefix [{"text":"\u00A7b\u00A7k.. \u00A76\u00A7lPaladin \u00A7b\u00A7k.. \u00A77"}]
-team modify Mage prefix [{"text":"\u00A78\u00A7k.. \u00A7b\u00A7lMage \u00A78\u00A7k.. \u00A77"}]
-team modify Unicorn prefix [{"text":"\u00A7d\u00A7k.. \u00A7b\u00A7lUnicorn \u00A7d\u00A7k.. \u00A77"}]
-team modify Dragon prefix [{"text":"\u00A78\u00A7k.. \u00A74\u00A7Dragon \u00A78\u00A7k.. \u00A77"}]
+team modify 315 prefix [{"text":"\u00A7b\u00A7k.. \u00A76\u00A7lPaladin \u00A7b\u00A7k.. \u00A77"}]
+team modify 314 prefix [{"text":"\u00A78\u00A7k.. \u00A7b\u00A7lMage \u00A78\u00A7k.. \u00A77"}]
+team modify 311 prefix [{"text":"\u00A7d\u00A7k.. \u00A7b\u00A7lUnicorn \u00A7d\u00A7k.. \u00A77"}]
+team modify 310 prefix [{"text":"\u00A78\u00A7k.. \u00A74\u00A7Dragon \u00A78\u00A7k.. \u00A77"}]
 
-team modify YT prefix [{"text":"\u00A74You\u00A76Tuber \u00A77"}]
-team modify YT suffix [{"text":"\u00A7r"}]
-team modify Streamer prefix [{"text":"\u00A75Streamer \u00A77"}]
-team modify Streamer suffix [{"text":"\u00A7r"}]
-team modify NC prefix [{"text":"\u00A7aNew Comer \u00A77"}]
-team modify Alchemist prefix [{"text":"\u00A78Alchemist \u00A77"}]
-team modify Alchemist suffix [{"text":" \u00A76Reward"}]
-team modify DiscordP prefix [{"text":"\u00A79Discord\u00A7e+ \u00A77"}]
+team modify 301 prefix [{"text":"\u00A74You\u00A76Tuber \u00A77"}]
+team modify 301 suffix [{"text":"\u00A7r"}]
+# team modify Streamer prefix [{"text":"\u00A75Streamer \u00A77"}]
+# team modify Streamer suffix [{"text":"\u00A7r"}]
+team modify 712 prefix [{"text":"\u00A7aNew Comer \u00A77"}]
+team modify 320 prefix [{"text":"\u00A78Alchemist \u00A77"}]
+team modify 320 suffix [{"text":" \u00A76Reward"}]
+# team modify DiscordP prefix [{"text":"\u00A79Discord\u00A7e+ \u00A77"}]
 
-team modify MOD prefix {"text":"\u00A76MOD \u00A77"}
-team modify ADMIN prefix {"text":"\u00A75ADMIN \u00A77"}
+team modify 711 prefix [{"text":"\u00A7bVillager \u00A77"}]
+team modify 710 prefix [{"text":"\u00A78Warrior \u00A77"}]
+team modify 709 prefix [{"text":"\u00A7dExpeditioner \u00A77"}]
+team modify 708 prefix [{"text":"\u00A75Master \u00A77"}]
+team modify 707 prefix [{"text":"\u00A79Knight \u00A77"}]
+team modify 706 prefix [{"text":"\u00A76Magician \u00A77"}]
+team modify 705 prefix [{"text":"Sorcerer \u00A77","color":"#d18708"}]
+team modify 704 prefix [{"text":"Noble \u00A77","color":"#6a1fc4"}]
+team modify 703 prefix [{"text":"Viscount \u00A77","color":"#3c1170"}]
+team modify 702 prefix [{"text":"Duke \u00A77","color":"#0f611a"}]
+team modify 701 prefix [{"text":"Archduke \u00A77","color":"#2056f7"}]
+team modify 700 prefix [{"text":"\u00A74King \u00A77"}]
 
-team modify Villager prefix [{"text":"\u00A7bVillager \u00A77"}]
-team modify Warrior prefix [{"text":"\u00A78Warrior \u00A77"}]
-team modify Expeditioner prefix [{"text":"\u00A7dExpeditioner \u00A77"}]
-team modify Master prefix [{"text":"\u00A75Master \u00A77"}]
-team modify Knight prefix [{"text":"\u00A79Knight \u00A77"}]
-team modify Magician prefix [{"text":"\u00A76Magician \u00A77"}]
-team modify Sorcerer prefix [{"text":"Sorcerer \u00A77","color":"#d18708"}]
-team modify Noble prefix [{"text":"Noble \u00A77","color":"#6a1fc4"}]
-team modify Viscount prefix [{"text":"Viscount \u00A77","color":"#3c1170"}]
-team modify Duke prefix [{"text":"Duke \u00A77","color":"#0f611a"}]
-team modify Archduke prefix [{"text":"Archduke \u00A77","color":"#2056f7"}]
-team modify King prefix [{"text":"\u00A74King \u00A77"}]
-
-team modify DAssassin prefix [{"text":"\u00A78Assassin \u00A77"}]
-team modify DAssassin suffix [{"text":" \u00A70Dedicated\u00A7r"}]
-team modify DLegend prefix [{"text":"\u00A74Legend \u00A77"}]
-team modify DLegend suffix [{"text":" \u00A70Dedicated"}]
-team modify DMortis prefix [{"text":"\u00A7cMortis \u00A77"}]
-team modify DMortis suffix [{"text":" \u00A70Dedicated"}]
+# team modify DAssassin prefix [{"text":"\u00A78Assassin \u00A77"}]
+# team modify DAssassin suffix [{"text":" \u00A70Dedicated\u00A7r"}]
+# team modify DLegend prefix [{"text":"\u00A74Legend \u00A77"}]
+# team modify DLegend suffix [{"text":" \u00A70Dedicated"}]
+# team modify DMortis prefix [{"text":"\u00A7cMortis \u00A77"}]
+# team modify DMortis suffix [{"text":" \u00A70Dedicated"}]
 # NPCs.
 team modify GREEN color green
 team modify GOLD color gold
