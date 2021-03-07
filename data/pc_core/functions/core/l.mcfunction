@@ -11,9 +11,9 @@ execute as @e[type=creeper,tag=!creeped] run data merge entity @s {Tags:["creepe
 # CHEATERS
 execute as @a[scores={Diamond=1..}] run function pc_core:anticheat/xray_check
 execute as @a[scores={Netherite=1..}] run function pc_core:anticheat/xray_check
-# SPAWN //205 96 128
-execute as @a[x=410,y=200,z=256,distance=500..700,tag=!spawn.bypass,tag=!op] at @s run function pc_core:utils/bounce
-execute as @a[x=410,y=200,z=256,distance=..500] at @s run effect give @s resistance 1 100 true
+# SPAWN
+execute as @e[type=armor_stand,tag=spawn] at @s as @a[distance=500..700,tag=!spawn.bypass,tag=!op] at @s run function pc_core:utils/bounce
+execute as @e[type=armor_stand,tag=spawn] at @s as @a[distance=..500] at @s run effect give @s resistance 1 100 true
 ### ITEM CLEAR ###
 execute if score IB Database >= 1 Database run function pc_core:item_cleanup
 ### KILLER ###
