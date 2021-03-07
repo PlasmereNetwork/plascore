@@ -3,7 +3,8 @@ execute as @a[gamemode=!spectator,tag=PO] run function pc_core:particles
 ### FUNCTIONS ###
 # DONATOR PERKS
 execute as @a[scores={Secret=1..},tag=special] run function pc_core:specials/zelda
-# TPA
+# TPing
+execute as @a[scores={Spawn=1..}] run function pc_core:essentials/spawn
 execute as @a[scores={TPA=1..}] run function pc_core:essentials/tpa/tpa
 execute as @a[scores={TPA=..-1}] run function pc_core:essentials/tpa/tpa
 # CREEPERS
