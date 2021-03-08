@@ -116,3 +116,5 @@ scoreboard players set 0 Database 0
 scoreboard players set 1 Database 1
 scoreboard players set 2 Database 2
 scoreboard players set 3 Database 3
+
+bossbar set minecraft:plasmere name [{"text":"\u00A72Vote Party \u00A78- "},{"score":{"name":"VP","objective":"Database"},"color":"gold"},{"text":"\u00A78/"},{"score":{"name":"VPM","objective":"Database"},"color":"gold"}]

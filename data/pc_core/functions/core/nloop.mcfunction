@@ -5,6 +5,8 @@ execute as @a[tag=!POed] at @s run tag @s add PO
 execute as @a[tag=!POed] at @s run tag @s add POed
 ### VOTE PARTY ###
 function pc_core:core/voteparty
+bossbar set minecraft:plasmere name [{"text":"\u00A72Vote Party \u00A78- "},{"score":{"name":"VP","objective":"Database"},"color":"gold"},{"text":"\u00A78/"},{"score":{"name":"VPM","objective":"Database"},"color":"gold"}]
+bossbar set minecraft:plasmere players @a
 ### UUID ###
 execute as @p[tag=!ThisUUID] run function pc_core:utils/scoreboard/givers/uuid
 execute as @p[scores={UUID=0}] run function pc_core:utils/scoreboard/givers/uuid
