@@ -2,3 +2,5 @@ tellraw @s [{"text":"\u00A7dIf you wish to vote, click this link","color":"light
 scoreboard players enable @a Vote
 scoreboard players set @a Vote 0
 playsound minecraft:block.note.xylophone master @s
+
+schedule clear pc_core:schedulers/vote_say 5s
