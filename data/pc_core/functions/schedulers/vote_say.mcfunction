@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\u00A7eSomeone just voted\u00A78! \u00A7eDo \u00A7b/trigger Vote \u00A7eto vote and get rewards\u00A78!"}]
