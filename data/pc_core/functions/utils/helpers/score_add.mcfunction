@@ -5,10 +5,42 @@ scoreboard objectives add dim2 dummy
 scoreboard objectives add dim3 dummy
 scoreboard objectives add dim4 dummy
 scoreboard objectives add dim5 dummy
+scoreboard objectives add dim6 dummy
+scoreboard objectives add dim7 dummy
+scoreboard objectives add dim8 dummy
+scoreboard objectives add dim9 dummy
+scoreboard objectives add dim10 dummy
 
+scoreboard objectives add xPos dummy
+scoreboard objectives add yPos dummy
+scoreboard objectives add zPos dummy
+scoreboard objectives add xPos2 dummy
+scoreboard objectives add yPos2 dummy
+scoreboard objectives add zPos2 dummy
+scoreboard objectives add xPos3 dummy
+scoreboard objectives add yPos3 dummy
+scoreboard objectives add zPos3 dummy
+scoreboard objectives add xPos4 dummy
+scoreboard objectives add yPos4 dummy
+scoreboard objectives add zPos4 dummy
 scoreboard objectives add xPos5 dummy
 scoreboard objectives add yPos5 dummy
 scoreboard objectives add zPos5 dummy
+scoreboard objectives add xPos6 dummy
+scoreboard objectives add yPos6 dummy
+scoreboard objectives add zPos6 dummy
+scoreboard objectives add xPos7 dummy
+scoreboard objectives add yPos7 dummy
+scoreboard objectives add zPos7 dummy
+scoreboard objectives add xPos8 dummy
+scoreboard objectives add yPos8 dummy
+scoreboard objectives add zPos8 dummy
+scoreboard objectives add xPos9 dummy
+scoreboard objectives add yPos9 dummy
+scoreboard objectives add zPos9 dummy
+scoreboard objectives add xPos10 dummy
+scoreboard objectives add yPos10 dummy
+scoreboard objectives add zPos10 dummy
 
 scoreboard objectives add items dummy
 
@@ -73,19 +105,7 @@ scoreboard objectives add RTPs dummy
 scoreboard objectives add Stats dummy [{"text":"Templex Statistics"}]
 scoreboard objectives add UUID dummy [{"text":"User Unique ID"}]
 scoreboard objectives add Votes dummy
-scoreboard objectives add xPos dummy
 scoreboard objectives add Xray dummy
-scoreboard objectives add yPos dummy
-scoreboard objectives add zPos dummy
-scoreboard objectives add xPos2 dummy
-scoreboard objectives add yPos2 dummy
-scoreboard objectives add zPos2 dummy
-scoreboard objectives add xPos3 dummy
-scoreboard objectives add yPos3 dummy
-scoreboard objectives add zPos3 dummy
-scoreboard objectives add xPos4 dummy
-scoreboard objectives add yPos4 dummy
-scoreboard objectives add zPos4 dummy
 scoreboard objectives add rtp.xpos dummy
 scoreboard objectives add rtp.ypos dummy
 scoreboard objectives add rtp.zpos dummy
