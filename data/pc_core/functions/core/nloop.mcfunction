@@ -1,5 +1,4 @@
 ### REPEATED COMMANDS ###
-execute as @a[scores={VP=1..}] run function pc_core:vppart
 execute as @a[scores={GetVoted=1..}] at @s run function pc_core:utils/vote/getvoted
 execute as @a[tag=!POed] at @s run tag @s add PO
 execute as @a[tag=!POed] at @s run tag @s add POed

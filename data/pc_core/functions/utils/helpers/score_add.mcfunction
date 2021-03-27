@@ -138,3 +138,5 @@ scoreboard players set 2 Database 2
 scoreboard players set 3 Database 3
 
 bossbar set minecraft:plasmere name [{"text":"\u00A72Vote Party \u00A78- "},{"score":{"name":"VP","objective":"Database"},"color":"gold"},{"text":"\u00A78/"},{"score":{"name":"VPM","objective":"Database"},"color":"gold"}]
+scoreboard players set VPM Database 50
+execute store result bossbar minecraft:plasmere max run scoreboard players get VPM Database

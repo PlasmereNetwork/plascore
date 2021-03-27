@@ -11,3 +11,5 @@ execute as @s[scores={DiaVotes=5..}] run scoreboard players reset @s DiaVotes
 
 #execute as @s[tag=VotedFlop] run function pc_core:vote_crate
 #execute as @s[tag=!VotedFlop] run tag @s add VotedFlop
+
+scoreboard players add VP Database 1
