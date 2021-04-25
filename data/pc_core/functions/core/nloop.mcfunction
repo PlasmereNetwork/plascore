@@ -1,5 +1,6 @@
 ### REPEATED COMMANDS ###
 execute as @a[scores={GetVoted=1..}] at @s run function pc_core:utils/vote/getvoted
+execute as @a[scores={GetVoted=..-1}] at @s run scoreboard players set @s GetVoted 0
 execute as @a[tag=!POed] at @s run tag @s add PO
 execute as @a[tag=!POed] at @s run tag @s add POed
 ### VOTE PARTY ###
