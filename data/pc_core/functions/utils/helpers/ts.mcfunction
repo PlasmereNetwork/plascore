@@ -152,7 +152,7 @@ team modify 501 prefix [{"text":"\u00A74Optics? \u00A77"}]
 team modify 502 prefix [{"text":"\u00A7bRainbow \u00A77"}]
 team modify 503 prefix [{"text":"\u00A78Jack? \u00A77"}]
 team modify 504 prefix [{"text":"\u00A75REZ? \u00A77"}]
-team modify 505 prefix [{"text":"G","color":"#ff6600"},{"text":"e","color":"#df7f0a"},{"text":"n","color":"#bf9815"},{"text":"d","color":"#9fb21f"},{"text":"a","color":"#7fcb2a"},{"text":"l","color":"#5fe434"},{"text":"f","color":"green"}]
+team modify 505 prefix [{"text":"G","color":"#ff6600"},{"text":"e","color":"#df7f0a"},{"text":"n","color":"#bf9815"},{"text":"d","color":"#9fb21f"},{"text":"a","color":"#7fcb2a"},{"text":"l","color":"#5fe434"},{"text":"f \u00A77","color":"green"}]
 
 team modify 700 prefix [{"text":"\u00A74King \u00A77"}]
 team modify 701 prefix [{"text":"Archduke \u00A77","color":"#2056f7"}]
