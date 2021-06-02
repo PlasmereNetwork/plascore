@@ -12,7 +12,7 @@ execute as @a[scores={Crate_Seventeen=1..}] run function store:crate_seventeen
 execute as @a[scores={TriggerReset=1..}] run function pc_core:essentials/trigger_reset
 # TELLRAW
 execute as @a[scores={Rules=1..}] run function pc_core:essentials/rules
-execute as @a[scores={Login=1..}] run function pc_core:utils/helpers/login
+#execute as @a[scores={Login=1..}] run function pc_core:utils/helpers/login
 execute as @a[scores={Tutorial=1..}] run function pc_core:essentials/tutorial
 execute as @a[scores={Bugs=1..}] run function pc_core:regulars/bugs
 execute as @a[scores={Help=1..}] run function pc_core:essentials/help
