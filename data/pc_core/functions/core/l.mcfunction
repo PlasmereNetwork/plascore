@@ -1,3 +1,6 @@
+### NEW PLAYERS ###
+function pc_core:utils/new_player_test
+function pc_core:utils/vote/votely_check
 ### REPEATED COMMANDS ###
 execute as @a[gamemode=!spectator,tag=PO] run function pc_core:particles
 ### FUNCTIONS ###
@@ -21,5 +24,3 @@ execute if score IB Database >= 1 Database run function pc_core:item_cleanup
 kill @a[tag=die]
 #kill @e[type=tnt]
 kill @e[type=tnt_minecart]
-### NEW PLAYERS ###
-function pc_core:utils/new_player_test

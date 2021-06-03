@@ -5,7 +5,6 @@ execute as @a[scores={CurrVotes=0..},tag=!VoteTagged] at @s run tag @s add VoteT
 execute as @a[tag=!VoteTagged] at @s run scoreboard players set @s CurrVotes 0
 ## Functions
 function pc_core:core/functions
-function pc_core:utils/vote/votely_check
 function pc_core:utils/givers/other/crates
 function pc_core:core/nloop
 function quests:trigger_test
