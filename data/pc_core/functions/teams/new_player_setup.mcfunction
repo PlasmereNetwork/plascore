@@ -13,6 +13,8 @@ scoreboard players set @s TriggerReset 1
 # Adds players to scoreboard.
 scoreboard players add Players-This-Reset Stats 1
 scoreboard players add Players-All-Time Stats 1
+# UUID
+function pc_core:utils/givers/scoreboard/uuid
 # Enables particles.
 tag @s add PO
 tag @s add POed
