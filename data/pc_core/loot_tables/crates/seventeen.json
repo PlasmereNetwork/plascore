@@ -404,22 +404,6 @@
           "type": "item",
           "weight": 5,
           "quality": 1,
-          "name": "minecraft:azalea_leaves_flowers",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "type": "uniform",
-                "min": 24,
-                "max": 48
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 1,
           "name": "minecraft:hanging_roots",
           "functions": [
             {
