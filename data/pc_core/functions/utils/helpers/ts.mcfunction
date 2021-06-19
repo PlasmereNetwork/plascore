@@ -44,10 +44,10 @@ team add 711
 team add 712
 
 # Color.
-team modify 100 color dark_gray
-team modify 101 color dark_gray
+team modify 100 color dark_aqua
+team modify 101 color dark_aqua
 
-team modify 110 color dark_gray
+team modify 110 color dark_green
 
 team modify 120 color gray
 team modify 121 color gray
