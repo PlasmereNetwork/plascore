@@ -1,21 +1,12 @@
 # Add.
 team add 100
 team add 101
-team add 102
-team add 103
-team add 104
-team add 105
 
 team add 110
-team add 111
-team add 112
-team add 113
 
 team add 120
 team add 121
 team add 122
-team add 123
-team add 124
 team add 125
 
 team add 300
@@ -34,11 +25,7 @@ team add 320
 team add 321
 
 # Custom Roles (Add)
-team add 500
-team add 501
 team add 502
-team add 503
-team add 504
 team add 505
 
 # Player Roles Add.
