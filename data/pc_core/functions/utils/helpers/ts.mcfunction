@@ -90,7 +90,7 @@ team modify 712 color gray
 team modify 100 prefix [{"text":"\u00A7d\u00A7lFounder \u00A70(\u00A74\u00A7lCEO\u00A70) \u00A78"}]
 team modify 101 prefix [{"text":"\u00A70(\u00A74\u00A7lCEO\u00A70) \u00A78"}]
 
-team modify 110 prefix [{"text":"\u00A7cAdmin \u00A77"}]
+team modify 110 prefix [{"text":"\u00A7c\u00A7lAdmin \u00A77"}]
 
 team modify 120 prefix [{"text":"\u00A75Developer \u00A77"}]
 team modify 121 prefix [{"text":"\u00A74Mod \u00A77"}]
