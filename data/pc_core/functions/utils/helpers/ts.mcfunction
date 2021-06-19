@@ -57,23 +57,14 @@ team add 711
 team add 712
 
 # Color.
-team modify 100 color aqua
+team modify 100 color dark_gray
 team modify 101 color gray
-team modify 102 color gray
-team modify 103 color gray
-team modify 104 color gray
-team modify 105 color gray
 
 team modify 110 color gray
-team modify 111 color gray
-team modify 112 color gray
-team modify 113 color gray
 
 team modify 120 color gray
 team modify 121 color gray
 team modify 122 color gray
-team modify 123 color gray
-team modify 124 color gray
 team modify 125 color gray
 
 team modify 300 color gray
@@ -91,11 +82,7 @@ team modify 315 color gray
 team modify 320 color gray
 team modify 321 color gray
 
-team modify 500 color gray
-team modify 501 color gray
 team modify 502 color gray
-team modify 503 color gray
-team modify 504 color gray
 team modify 505 color gray
 
 team modify 700 color gray
@@ -113,23 +100,14 @@ team modify 711 color gray
 team modify 712 color gray
 
 # Prefixes / Suffixes.
-team modify 100 prefix [{"text":"\u00A73Owner \u00A77"}]
-team modify 101 prefix [{"text":"\u00A75Server \u00A76Manager \u00A77"}]
-team modify 102 prefix [{"text":"\u00A7cStaff \u00A76Manager \u00A77"}]
-team modify 103 prefix [{"text":"\u00A7eCreation \u00A76Manager \u00A77"}]
-team modify 104 prefix [{"text":"Community ","color":"gold"},{"text":"Manager ","color":"blue","bold":true}]
-team modify 105 prefix [{"text":"\u00A7cFerno \u00A76Manager \u00A77"}]
+team modify 100 prefix [{"text":"\u00A7d\u00A7lFounder \u00A70(\u00A74\u00A7lCEO\u00A70) \u00A78"}]
+team modify 101 prefix [{"text":"\u00A74\u00A7lCEO \u00A78"}]
 
-team modify 110 prefix [{"text":"\u00A79Starman \u00A77"}]
-team modify 111 prefix [{"text":"\u00A7cAdmin \u00A77"}]
-team modify 112 prefix [{"text":"\u00A74The Poppy King \u00A77"}]
-team modify 113 prefix [{"text":"\u00A76Sys\u00A7cadmin \u00A77"}]
+team modify 110 prefix [{"text":"\u00A7cAdmin \u00A77"}]
 
 team modify 120 prefix [{"text":"\u00A75Developer \u00A77"}]
 team modify 121 prefix [{"text":"\u00A74Mod \u00A77"}]
 team modify 122 prefix [{"text":"\u00A72Builder \u00A77"}]
-team modify 123 prefix [{"text":"\u00A7ePotato\u00A76Lady \u00A77"}]
-team modify 124 prefix [{"text":"\u00A7dGoddess Bee \u00A77"}]
 team modify 125 prefix [{"text":"\u00A79Helper \u00A77"}]
 
 team modify 300 prefix [{"text":"\u00A7cPlasmian \u00A77"}]
@@ -147,11 +125,7 @@ team modify 315 prefix [{"text":"\u00A7b\u00A7k..\u00A76 \u00A7lPaladin \u00A7b\
 team modify 320 prefix [{"text":"\u00A7d\u00A7k.. \u00A78Alchemist \u00A7d\u00A7k.. \u00A77"}]
 team modify 321 prefix [{"text":"\u00A7d\u00A7k.. \u00A76Jester \u00A7d\u00A7k.. \u00A77"}]
 
-team modify 500 prefix [{"text":"\u00A72Uncle \u00A77"}]
-team modify 501 prefix [{"text":"\u00A74Optics? \u00A77"}]
 team modify 502 prefix [{"text":"\u00A7bRainbow \u00A77"}]
-team modify 503 prefix [{"text":"\u00A78Jack? \u00A77"}]
-team modify 504 prefix [{"text":"\u00A75REZ? \u00A77"}]
 team modify 505 prefix [{"text":"G","color":"#ff6600"},{"text":"e","color":"#df7f0a"},{"text":"n","color":"#bf9815"},{"text":"d","color":"#9fb21f"},{"text":"a","color":"#7fcb2a"},{"text":"l","color":"#5fe434"},{"text":"f \u00A77","color":"green"}]
 
 team modify 700 prefix [{"text":"\u00A74King \u00A77"}]
