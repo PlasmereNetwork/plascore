@@ -87,8 +87,9 @@ team modify 711 color gray
 team modify 712 color gray
 
 # Prefixes / Suffixes.
-team modify 100 prefix [{"text":"\u00A7d\u00A7lFounder \u00A70(\u00A74\u00A7lCEO\u00A70) \u00A78"}]
-team modify 101 prefix [{"text":"\u00A70(\u00A74\u00A7lCEO\u00A70) \u00A78"}]
+team modify 100 prefix [{"text":"\u00A74\u00A7lOwner \u00A78"}]
+team modify 100 suffix [{"text":" \u00A7d\u00A7lFounder"}]
+team modify 101 prefix [{"text":"\u00A74\u00A7lOwner \u00A78"}]
 
 team modify 110 prefix [{"text":"\u00A7c\u00A7lAdmin \u00A78"}]
 
