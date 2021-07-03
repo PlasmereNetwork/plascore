@@ -4,5 +4,5 @@ execute as @a[tag=!joined] if entity @s[tag=!ThisUUID] run function pc_core:util
 tag @a[tag=!joined] add joined
 execute if entity @a[team=] run scoreboard players add @p TriggerReset 1
 execute as @a[team=] at @s run scoreboard players set @s RTPs 5
-team join 712 @a[team=]
+team join default @a[team=]
 execute as @a[tag=!NewBooked] run function templex_standard:cmd_book

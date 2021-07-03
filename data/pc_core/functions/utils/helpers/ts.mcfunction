@@ -41,7 +41,7 @@ team add 708
 team add 709
 team add 710
 team add 711
-team add 712
+team add default
 
 # Color.
 team modify 100 color dark_aqua
@@ -84,7 +84,7 @@ team modify 708 color gray
 team modify 709 color gray
 team modify 710 color gray
 team modify 711 color gray
-team modify 712 color gray
+team modify default color gray
 
 # Prefixes / Suffixes.
 team modify 100 prefix [{"text":"\u00A74\u00A7lOwner \u00A78"}]
@@ -128,7 +128,7 @@ team modify 708 prefix [{"text":"\u00A75Master \u00A77"}]
 team modify 709 prefix [{"text":"\u00A7dExpeditioner \u00A77"}]
 team modify 710 prefix [{"text":"\u00A78Warrior \u00A77"}]
 team modify 711 prefix [{"text":"\u00A7bVillager \u00A77"}]
-team modify 712 prefix [{"text":"\u00A7aNew Comer \u00A77"}]
+team modify default prefix [{"text":"\u00A7aNew Comer \u00A77"}]
 # NPCs.
 team modify GREEN color green
 team modify GOLD color gold

@@ -53,4 +53,4 @@ team add 708
 team add 709
 team add 710
 team add 711
-team add 712
+team add default
