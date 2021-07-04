@@ -26,6 +26,7 @@ team add 321
 
 # Custom Roles (Add)
 team add 500
+team add 501
 team add 502
 team add 505
 
@@ -71,6 +72,7 @@ team modify 320 color gray
 team modify 321 color gray
 
 team modify 500 color gray
+team modify 501 color gray
 team modify 502 color gray
 team modify 505 color gray
 
@@ -116,6 +118,7 @@ team modify 320 prefix [{"text":"\u00A7d\u00A7k.. \u00A78Alchemist \u00A7d\u00A7
 team modify 321 prefix [{"text":"\u00A7d\u00A7k.. \u00A76Jester \u00A7d\u00A7k.. \u00A77"}]
 
 team modify 500 prefix [{"text":"\u00A76Dad \u00A77"}]
+team modify 501 prefix [{"text":"\u00A74Bee \u00A77"}]
 team modify 502 prefix [{"text":"\u00A7bRainbow \u00A77"}]
 team modify 505 prefix [{"text":"G","color":"#ff6600"},{"text":"e","color":"#df7f0a"},{"text":"n","color":"#bf9815"},{"text":"d","color":"#9fb21f"},{"text":"a","color":"#7fcb2a"},{"text":"l","color":"#5fe434"},{"text":"f \u00A77","color":"green"}]
 
