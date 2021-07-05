@@ -8,5 +8,6 @@ function pc_core:core/functions
 function pc_core:utils/givers/other/crates
 function pc_core:core/nloop
 function quests:trigger_test
+function pc_core:utils/helpers/score_fix
 ### Has to be last.
 schedule function pc_core:core/timely 1s
