@@ -1,31 +1,31 @@
 ### TEAMS ###
 execute as @a[team=!default,scores={CurrVotes=..2},tag=!special] run function pc_core:teams/ncfix
-# 5 Votes
+# 3 Votes
 execute as @a[team=!711,scores={CurrVotes=3..9},tag=!special] run function pc_core:teams/team_villager
-# 15 Votes
+# 10 Votes
 execute as @a[team=!710,scores={CurrVotes=10..19},tag=!special] run function pc_core:teams/team_warrior
-# 30 Votes
+# 20 Votes
 execute as @a[team=!709,scores={CurrVotes=20..39},tag=!special] run function pc_core:teams/team_expeditioner
-# 60 Votes
+# 40 Votes
 execute as @a[team=!708,scores={CurrVotes=40..69},tag=!special] run function pc_core:teams/team_master
-# 100 Votes
+# 70 Votes
 execute as @a[team=!707,scores={CurrVotes=70..109},tag=!special] run function pc_core:teams/team_knight
-# 150 Votes
+# 110 Votes
 execute as @a[team=!706,scores={CurrVotes=110..159},tag=!special] run function pc_core:teams/team_magician
-# 220 Votes
+# 160 Votes
 execute as @a[team=!705,scores={CurrVotes=160..214},tag=!special] run function pc_core:teams/team_sorcerer
-# 280 Votes
+# 215 Votes
 execute as @a[team=!704,scores={CurrVotes=215..274},tag=!special] run function pc_core:teams/team_noble
-# 310 Votes
+# 275 Votes
 execute as @a[team=!703,scores={CurrVotes=275..344},tag=!special] run function pc_core:teams/team_viscount
-# 370 Votes
+# 345 Votes
 execute as @a[team=!702,scores={CurrVotes=345..419},tag=!special] run function pc_core:teams/team_duke
-# 440 Votes
+# 420 Votes
 execute as @a[team=!701,scores={CurrVotes=420..499},tag=!special] run function pc_core:teams/team_archduke
 # 500 Votes
 execute as @a[team=!700,scores={CurrVotes=500..},tag=!special] run function pc_core:teams/team_king
 
-#10      20      40      70      110     160     215     275     345     420     500
+# 0 - default     3 - 711     10 - 710     20 - 709     40 - 708     70 - 707     110 - 706     160 - 705     215 - 704     275 - 703     345 - 702     420 - 701     500 - 700
 
 ### DISCRIMINATORS ###
 tag @a[tag=!specialrandom,team=300] add specialrandom

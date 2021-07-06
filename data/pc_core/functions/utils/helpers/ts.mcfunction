@@ -20,6 +20,7 @@ team add 312
 team add 313
 team add 314
 team add 315
+team add 316
 
 team add 320
 team add 321
@@ -67,6 +68,7 @@ team modify 312 color gray
 team modify 313 color gray
 team modify 314 color gray
 team modify 315 color gray
+team modify 316 color gray
 
 team modify 320 color gray
 team modify 321 color gray
@@ -113,9 +115,10 @@ team modify 312 prefix [{"text":"\u00A7b\u00A7k..\u00A77 Baron \u00A7b\u00A7k..\
 team modify 313 prefix [{"text":"\u00A7b\u00A7k..\u00A78 Bard \u00A7b\u00A7k..\u00A77 "}]
 team modify 314 prefix [{"text":"\u00A78\u00A7k..\u00A7b \u00A7lMage \u00A78\u00A7k..\u00A77 "}]
 team modify 315 prefix [{"text":"\u00A7b\u00A7k..\u00A76 \u00A7lPaladin \u00A7b\u00A7k..\u00A77 "}]
+team modify 315 prefix [{"text":"\u00A76\u00A7k..\u00A7r Eagle \u00A76\u00A7k..\u00A77 "}]
 
-team modify 320 prefix [{"text":"\u00A7d\u00A7k.. \u00A78Alchemist \u00A7d\u00A7k.. \u00A77"}]
-team modify 321 prefix [{"text":"\u00A7d\u00A7k.. \u00A76Jester \u00A7d\u00A7k.. \u00A77"}]
+team modify 320 prefix [{"text":"\u00A7d\u00A7k..\u00A78 Alchemist \u00A7d\u00A7k.. \u00A77"}]
+team modify 321 prefix [{"text":"\u00A7d\u00A7k..\u00A76 Jester \u00A7d\u00A7k.. \u00A77"}]
 
 team modify 500 prefix [{"text":"\u00A76Dad \u00A77"}]
 team modify 501 prefix [{"text":"\u00A74Bee \u00A77"}]
