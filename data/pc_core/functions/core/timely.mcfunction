@@ -4,6 +4,7 @@ execute as @p[scores={DiaVotes=5..}] at @s run scoreboard players remove @s DiaV
 execute as @a[scores={CurrVotes=0..},tag=!VoteTagged] at @s run tag @s add VoteTagged
 execute as @a[tag=!VoteTagged] at @s run scoreboard players set @s CurrVotes 0
 ## Functions
+function pc_core:buycraft/logic
 function pc_core:core/functions
 function pc_core:utils/givers/other/crates
 function pc_core:core/nloop

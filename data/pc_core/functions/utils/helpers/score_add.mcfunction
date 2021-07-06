@@ -96,6 +96,7 @@ scoreboard objectives add Vote trigger
 scoreboard objectives add ZeldaTime dummy
 scoreboard objectives add SetHome trigger
 # Others.
+scoreboard objectives add Buycraft dummy [{"text":"Buycraft Logic"}]
 scoreboard objectives add Crate dummy [{"text":"Themed Crates"}]
 scoreboard objectives add Database dummy [{"text":"Database of Scores"}]
 scoreboard objectives add Deaths deathCount
