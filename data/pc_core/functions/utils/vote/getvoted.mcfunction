@@ -1,4 +1,4 @@
-give @s minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
+give @s minecraft:poisonous_potato{Enchantments:[{id:"knockback",lvl:1}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 1 1
 advancement grant @s only advancements:templex_vote
 #execute as @s at @s run scoreboard players add @s VoteAdd 200000
