@@ -1,10 +1,10 @@
 tag @s add special
-execute as @s[scores={Buycraft=316}] team join 316
-execute as @s[scores={Buycraft=315}] team join 315
-execute as @s[scores={Buycraft=314}] team join 314
-execute as @s[scores={Buycraft=313}] team join 313
-execute as @s[scores={Buycraft=312}] team join 312
-execute as @s[scores={Buycraft=311}] team join 311
-execute as @s[scores={Buycraft=310}] team join 310
+execute as @s[scores={Buycraft=316}] run team join 316 @s
+execute as @s[scores={Buycraft=315}] run team join 315 @s
+execute as @s[scores={Buycraft=314}] run team join 314 @s
+execute as @s[scores={Buycraft=313}] run team join 313 @s
+execute as @s[scores={Buycraft=312}] run team join 312 @s
+execute as @s[scores={Buycraft=311}] run team join 311 @s
+execute as @s[scores={Buycraft=310}] run team join 310 @s
 
 scoreboard players reset @s Buycraft
