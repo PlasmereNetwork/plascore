@@ -31,5 +31,6 @@ give @s written_book{pages:['{"text":"Table of Contents:\\n\\n2-5 English"}','["
 # Sounds.
 execute as @a at @s run playsound minecraft:entity.lightning.thunder master @a ~ ~ ~ 1 1 1
 # LAST
+team join default @s
 tag @s add firstTagged
 tag @s[tag=!joined] add joined
