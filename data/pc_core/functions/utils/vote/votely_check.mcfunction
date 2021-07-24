@@ -1,5 +1,5 @@
 ### TEAMS ###
-execute as @a[team=!default,scores={CurrVotes=..2},tag=!special] run function pc_core:teams/ncfix
+execute as @a[team=!default,scores={CurrVotes=..2,TotalTime=1..},tag=!special] run function pc_core:teams/ncfix
 # 3 Votes
 execute as @a[team=!711,scores={CurrVotes=3..9},tag=!special] run function pc_core:teams/team_villager
 # 10 Votes
