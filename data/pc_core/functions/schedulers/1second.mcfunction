@@ -20,4 +20,6 @@ execute if score 1s Database matches 0 run scoreboard players add 1s Database 1
 
 execute if score 1s Database matches 4 run scoreboard players set 1s Database 0
 
+function pc_core:trigger_helper
+
 schedule function pc_core:schedulers/1second 1s

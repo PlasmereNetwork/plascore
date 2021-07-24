@@ -1008,7 +1008,7 @@
 
         {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{}]}"
+              "tag": "{Enchantments:[{id:"knockback",lvl:1}]}"
             }
                 
 

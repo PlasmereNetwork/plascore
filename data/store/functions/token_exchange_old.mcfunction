@@ -1,5 +1,5 @@
 #minecraft:poisonous_potato{display:{Name:"{\"text\":\"Vote Token\",\"color\":\"aqua\"}",Lore:["{\"text\":\"Seems like it has just fallen from the sky...\"}","{\"text\":\"For use at player shops.\",\"color\":\"gold\"}"]}}
-#minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
+#minecraft:poisonous_potato{Enchantments:[{id:"knockback",lvl:1}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
 
 scoreboard players set 1 items 1
 
@@ -12,7 +12,7 @@ execute as @s[tag=token_exchange] if score @s items < 1 items run tag @s remove 
 execute as @s[tag=!token_exchange] run tellraw @s [{"text":"Sorry, but you do not have any Vote Tokens to do exchange!","color":"red"}]
 
 execute as @s[tag=token_exchange] run clear @s minecraft:poisonous_potato{display:{Name:"{\"text\":\"Vote Token\",\"color\":\"aqua\"}",Lore:["{\"text\":\"Seems like it has just fallen from the sky...\"}","{\"text\":\"For use at player shops.\",\"color\":\"gold\"}"]}} 1
-execute as @s[tag=token_exchange] run give @s minecraft:poisonous_potato{Enchantments:[{}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
+execute as @s[tag=token_exchange] run give @s minecraft:poisonous_potato{Enchantments:[{id:"knockback",lvl:1}],display:{Lore:['{"text":"For use at /trigger Store.","color":"#9944ff","italic":"false"}'],Name:'{"text":"Vote Token","color":"#99ff00","italic":"false"}'}}
 execute as @s[tag=token_exchange] run tellraw @s [{"text":"There you go! Enjoy your new Vote Token; you are able to use it at /trigger Store!","color":"gold"}]
 
 execute as @s[tag=token_exchange] run tag @s remove token_exchange
