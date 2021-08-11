@@ -7,6 +7,8 @@ team add 110
 team add 120
 team add 121
 team add 122
+team add 123
+team add 124
 team add 125
 
 team add 300
@@ -55,6 +57,8 @@ team modify 110 color dark_green
 team modify 120 color gray
 team modify 121 color gray
 team modify 122 color gray
+team modify 123 color gray
+team modify 124 color gray
 team modify 125 color gray
 
 team modify 300 color gray
@@ -102,6 +106,8 @@ team modify 110 prefix [{"text":"\u00A7c\u00A7lAdmin \u00A78"}]
 team modify 120 prefix [{"text":"\u00A75Developer \u00A77"}]
 team modify 121 prefix [{"text":"\u00A74Mod \u00A77"}]
 team modify 122 prefix [{"text":"\u00A72Builder \u00A77"}]
+team modify 123 prefix [{"text":"\u00A79Helper \u00A74Mod \u00A77"}]
+team modify 124 prefix [{"text":"\u00A79Helper \u00A72Builder \u00A77"}]
 team modify 125 prefix [{"text":"\u00A79Helper \u00A77"}]
 
 team modify 300 prefix [{"text":"\u00A7cPlasmian \u00A77"}]
