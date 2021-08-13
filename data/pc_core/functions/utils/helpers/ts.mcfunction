@@ -110,10 +110,9 @@ team modify 123 prefix [{"text":"\u00A79Helper \u00A74Mod \u00A77"}]
 team modify 124 prefix [{"text":"\u00A79Helper \u00A72Builder \u00A77"}]
 team modify 125 prefix [{"text":"\u00A79Helper \u00A77"}]
 
-team modify 300 prefix [{"text":"\u00A7cPlasmian \u00A77"}]
-team modify 301 prefix [{"text":"\u00A74You\u00A76Tuber \u00A77"}]
+team modify 300 prefix [{"text":"\u00A75\u00A7k..\u00A7r \u00A74\u00A7lDragon \u00A75\u00A7k..\u00A7r"}]
+team modify 301 prefix [{"text":"\u00A7cPlasmian \u00A77"}]
 team modify 302 prefix [{"text":"\u00A7cTemplexian \u00A77"}]
-team modify 303 prefix [{"text":"\u00A75Streamer \u00A77"}]
 
 team modify 310 prefix [{"text":"\u00A78\u00A7k..\u00A74 \u00A7lDragon \u00A78\u00A7k..\u00A77 "}]
 team modify 311 prefix [{"text":"\u00A7d\u00A7k..\u00A7b \u00A7lUnicorn \u00A7d\u00A7k..\u00A77 "}]
