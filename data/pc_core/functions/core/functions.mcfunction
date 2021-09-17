@@ -18,7 +18,7 @@ execute as @a[scores={Bugs=1..}] at @s run function pc_core:regulars/bugs
 execute as @a[scores={Help=1..}] at @s run function pc_core:essentials/help
 # SURVIVAL
 execute as @a[scores={Survival=1..},tag=!t.ingame] at @s run function pc_core:essentials/survival
-execute as @a[scores={Survival=1..},tag=t.ingame] at @s run tellraw @s [{"text":"Sorry, that is disabled right now. (You're in a protected area!)","color":"red"}] at @s
+execute as @a[scores={Survival=1..},tag=t.ingame] at @s run tellraw @s [{"text":"Sorry, that is disabled right now. (You're in a protected area!)","color":"red"}]
 execute as @a[scores={Survival=1..},tag=t.ingame] at @s run scoreboard players reset @s Survival
 execute as @a[scores={Survival=1..},tag=t.ingame] at @s run scoreboard players enable @a Survival
 # VIEW
