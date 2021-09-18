@@ -6,4 +6,4 @@ scoreboard players operation @s uuid = Curruuid Database
 tellraw @a[tag=OP] [{"text":"Tagger","color":"gold"},{"text":" : ","color":"dark_gray"},{"text":"Just tagged ","color":"red"},{"selector":"@s"},{"text":" with uuid: ","color":"red"},{"score":{"name":"Curruuid","objective":"Database"}}]
 execute if entity @s[tag=!Zeroed] run tag @s add Zeroed
 # Tagging.
-tag @s add Thisuuid
+tag @s add uuided
