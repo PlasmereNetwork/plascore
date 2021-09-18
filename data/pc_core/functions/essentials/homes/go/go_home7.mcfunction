@@ -1,4 +1,4 @@
-execute at @s run summon area_effect_cloud ~ ~ ~ {Tags:["HomeTP"],Duration:-1,WaitTime:-2147483648,Age:-2147483648}
+execute at @s run summon area_effect_cloud ~ ~ ~ {Tags:["homeTP"],Duration:-1,WaitTime:-2147483648,Age:-2147483648}
 
 execute as @e[tag=HomeTP,limit=1,sort=nearest] at @s run function pc_core:essentials/homes/go/h7
 

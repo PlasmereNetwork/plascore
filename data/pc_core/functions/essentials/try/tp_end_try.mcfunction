@@ -12,5 +12,5 @@ execute as @s[tag=getBoughtEnd] run tag @s remove getBoughtEnd
 # If you have already bought access.
 execute as @s[tag=bought_end] run function pc_core:essentials/try/tp_end_confirm
 # Reset.
-scoreboard players set @s TPEnd 0
-scoreboard players enable @a TPEnd
+scoreboard players set @s tpend 0
+scoreboard players enable @a tpend

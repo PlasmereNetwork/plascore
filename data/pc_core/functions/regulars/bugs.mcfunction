@@ -6,5 +6,5 @@ tellraw @s [{"text":"\u00A76> \u00A7dIf you know a bug, please report it!","colo
 
 #tellraw @s [{"text":"\u00A76> \u00A7d","color":"light_purple"}]
 # Reset.
-scoreboard players reset @s Bugs
-scoreboard players enable @a Bugs
+scoreboard players reset @s bugs
+scoreboard players enable @a bugs

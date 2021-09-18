@@ -1,20 +1,20 @@
-# Players with the TPAto tag.
-execute as @s[tag=TPAto] run tellraw @p[tag=TPAing] [{"selector":"@s","color":"green"},{"text":" has denied your TPA request. Sorry.","color":"red"}]
-execute as @s[tag=TPAto] run tellraw @s [{"text":"Sucessfully denied the TPA request from ","color":"aqua","italic":"true"},{"selector":"@p[tag=TPAing]","color":"green","italic":"false"},{"text":".","color":"aqua","italic":"true"}]
-execute as @s[tag=TPAto] run tellraw @a[tag=OP] [{"text":"New TPA System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" just denied ","color":"red"},{"selector":"@p[tag=TPAing]","color":"green"},{"text":"'s TPA request.","color":"red"}]
-execute as @s[tag=TPAto] run scoreboard players set @a TPA 0
-execute as @s[tag=TPAto] run scoreboard players set @a TPARequest 0
-execute as @s[tag=TPAto] run scoreboard players set @a TPAFind 0
-execute as @s[tag=TPAto] run scoreboard players enable @a TPA
-execute as @s[tag=TPAto] run scoreboard players enable @a TPAccept
-execute as @s[tag=TPAto] run scoreboard players enable @a TPDeny
-execute as @s[tag=TPAto] run tag @a remove TPAing
-execute as @s[tag=TPAto] run tag @a remove Tried
-execute as @s[tag=TPAto] run tag @a remove GotTPA
-# Players without the TPAto tag.
-execute as @s[tag=!TPAto] run tellraw @s [{"text":"TPDeny request failed! Either you don't have any requests or the requester logged off.","color":"red"}]
-execute as @s[tag=!TPAto] run tellraw @a[tag=OP] [{"text":"New TPA System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" just tried to deny a TPA request, but either didn't have any requests or the requester logged off.","color":"red"}]
-# TPDeny reset.
-scoreboard players set @s TPDeny 0
-scoreboard players enable @a TPDeny
-execute as @s[tag=TPAto] run tag @a remove TPAto
+# Players with the tpato tag.
+execute as @s[tag=tpato] run tellraw @p[tag=tpaing] [{"selector":"@s","color":"green"},{"text":" has denied your tpa request. Sorry.","color":"red"}]
+execute as @s[tag=tpato] run tellraw @s [{"text":"Sucessfully denied the tpa request from ","color":"aqua","italic":"true"},{"selector":"@p[tag=tpaing]","color":"green","italic":"false"},{"text":".","color":"aqua","italic":"true"}]
+execute as @s[tag=tpato] run tellraw @a[tag=OP] [{"text":"New tpa System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" just denied ","color":"red"},{"selector":"@p[tag=tpaing]","color":"green"},{"text":"'s tpa request.","color":"red"}]
+execute as @s[tag=tpato] run scoreboard players set @a tpa 0
+execute as @s[tag=tpato] run scoreboard players set @a tparequest 0
+execute as @s[tag=tpato] run scoreboard players set @a tpafind 0
+execute as @s[tag=tpato] run scoreboard players enable @a tpa
+execute as @s[tag=tpato] run scoreboard players enable @a tpaccept
+execute as @s[tag=tpato] run scoreboard players enable @a tpdeny
+execute as @s[tag=tpato] run tag @a remove tpaing
+execute as @s[tag=tpato] run tag @a remove Tried
+execute as @s[tag=tpato] run tag @a remove Gottpa
+# Players without the tpato tag.
+execute as @s[tag=!tpato] run tellraw @s [{"text":"tpdeny request failed! Either you don't have any requests or the requester logged off.","color":"red"}]
+execute as @s[tag=!tpato] run tellraw @a[tag=OP] [{"text":"New tpa System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" just tried to deny a tpa request, but either didn't have any requests or the requester logged off.","color":"red"}]
+# tpdeny reset.
+scoreboard players set @s tpdeny 0
+scoreboard players enable @a tpdeny
+execute as @s[tag=tpato] run tag @a remove tpato

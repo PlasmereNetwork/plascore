@@ -4,4 +4,4 @@ execute store result score Players-Online Stats run execute if entity @a
 execute store result score YouTubers-Online Stats run execute if entity @a[tag=YT]
 execute as @a at @s run playsound minecraft:block.note.xylophone master @s
 scoreboard players add @a Karma 30
-scoreboard players reset @s Login
+scoreboard players reset @s event.login

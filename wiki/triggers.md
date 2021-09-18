@@ -1,103 +1,103 @@
 ## STORE
-### Store
+### store
 Prints a list of everything you can buy from the store menu.
-### Crate_Redstone
+### crate_redstone
 Buys a Redstone Crate.
-### Crate_Building
+### crate_building
 Buys a Building Crate.
-### Crate_Farming
+### crate_farming
 Buys a Farming Crate.
-### Crate_Ores
+### crate_ores
 Buys an Ores Crate.
-### Crate_Nether
+### crate_nether
 Buys a Nether Crate.
-### Crate_Specials
+### crate_specials
 Buys a Specials Crate.
 ## RESET
-### TriggerReset
+### triggerreset
 Reloads all of the triggers we have.
 ## TELLRAW
-### Rules
+### rules
 Tells you the rules of the server.
-### Tutorial
+### tutorial
 Shows you a paged tutorial in chat.
-### Bugs
+### bugs
 Shows any known bugs either with the snapshot or with our datapacks or mods.
 ### Help
 Shows a little help menu with all the commands.
 ## SURVIVAL
-### Survival
+### gm.survival
 Sets you back into survival mode.
 ## VIEW
-### ViewWalkTime
+### viewwalktime
 Shows you your walktime to date.
-### ViewKarma
+### viewkarma
 Shows you your karma to date.
 ## AFK
 ### AFK
 Tells everyone that you are AFK or not.
 ## CHAT EMOTES
-### Shrug
+### shrug
 Puts a shrug emoji in the chat.
 ### TableFlip
 Puts a tableflip emoji in the chat.
 ## LINKS
-### Vote
+### vote
 Shows you the vote link.
-### Discord
+### discord
 Shows you the Discord link.
-### Donate
+### donate
 Shows you the donation / buycraft link.
-## UUID USE
+## uuid USE
 ### See
-#### SeeAllUUIDs
-Shows you all the UUIDs of people on the server.
-### TPA
-#### TPA
-Allows you to TPA to someone else.
-#### TPDeny
-Denies a TPA request.
-#### TPAccept
-Accepts a TPA request.
+#### seealluuids
+Shows you all the uuids of people on the server.
+### tpa
+#### tpa
+Allows you to tpa to someone else.
+#### tpdeny
+Denies a tpa request.
+#### tpaccept
+Accepts a tpa request.
 ## HOME / SPAWNPOINT
 ### SetHome
 Allows you to set a home.
 ### Home
 Allows you to go back to a previously set home.
-### Die
+### die
 Kills you.
-### SpawnPoint
+### spawnpoint
 Sets your spawnpoint for when you die.
 ## WARPS / TELEPORTATION
-### Spawn
+### spawn
 Goes to the server spawn.
-### TPEnd
+### tpend
 Goes to the end if you can or buys it if you can. Costs 5000 Karma points.
-### RTP
+### rtp
 Allows you to randomly teleport into the wild.
 
-You will only have a specific amount of RTPs. 5 upon first join.
+You will only have a specific amount of rtps. 5 upon first join.
 ## BUY
 ### XP
-#### Buy_50XP
+#### buy_50xp
 Buys 50 experience for 150 Karma points.
-#### Buy_500XP
+#### buy_500xp
 Buys 500 experience for 1500 Karma points.
-#### Buy_5000XP
+#### buy_5000xp
 Buys 5000 experience for 15000 Karma points.
 ### Other
-#### Shulker
+#### buy_shulker
 Buys a shulker for you to kill and get shulker shells.
-#### BuyRTP
-Buys more RTPs.
+#### buy_rtp
+Buys more rtps.
 ## BOUGHT RANKS
 These are only for those who bought ranks or who have been given a special rank.
 ### Firework
 Summons a firework.
-### Taunt
-Taunts your surroundings.
-### Secret
+### taunt
+taunts your surroundings.
+### secret
 Plays a special tune at your location.
 ## TOGGLE
-### ToggleParticle
+### toggleparticle
 Toggles your particles on or off. (If you have particles.)

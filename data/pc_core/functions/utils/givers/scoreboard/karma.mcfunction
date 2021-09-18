@@ -23,9 +23,9 @@ scoreboard players add @a[team=Manager,scores={VP=1..}] Karma 8
 scoreboard players add @a[team=Owner,scores={VP=1..}] Karma 13
 
 tellraw @a[tag=!special,scores={VP=1..}] [{"text":"Received +2 Karma!","color":"aqua"}]
-tellraw @a[tag=special,team=!Alchemist,team=!Templexian,tag=!OP,scores={VP=1..}] [{"text":"Received +7 Karma! (VoteParty Love)","color":"aqua"}]
-tellraw @a[team=Alchemist,scores={VP=1..}] [{"text":"Received +10 Karma! (VoteParty Love)","color":"aqua"}]
-tellraw @a[team=Templexian,scores={VP=1..}] [{"text":"Received +17 Karma! (VoteParty Love)","color":"aqua"}]
-tellraw @a[tag=OP,team=!Manager,team=!Owner,scores={VP=1..}] [{"text":"Received +22 Karma! (VoteParty Love)","color":"aqua"}]
-tellraw @a[team=Manager,scores={VP=1..}] [{"text":"Received +30 Karma! (VoteParty Love)","color":"aqua"}]
-tellraw @a[team=Owner,scores={VP=1..}] [{"text":"Received +35 Karma! (VoteParty Love)","color":"aqua"}]
+tellraw @a[tag=special,team=!Alchemist,team=!Templexian,tag=!OP,scores={VP=1..}] [{"text":"Received +7 Karma! (voteParty Love)","color":"aqua"}]
+tellraw @a[team=Alchemist,scores={VP=1..}] [{"text":"Received +10 Karma! (voteParty Love)","color":"aqua"}]
+tellraw @a[team=Templexian,scores={VP=1..}] [{"text":"Received +17 Karma! (voteParty Love)","color":"aqua"}]
+tellraw @a[tag=OP,team=!Manager,team=!Owner,scores={VP=1..}] [{"text":"Received +22 Karma! (voteParty Love)","color":"aqua"}]
+tellraw @a[team=Manager,scores={VP=1..}] [{"text":"Received +30 Karma! (voteParty Love)","color":"aqua"}]
+tellraw @a[team=Owner,scores={VP=1..}] [{"text":"Received +35 Karma! (voteParty Love)","color":"aqua"}]

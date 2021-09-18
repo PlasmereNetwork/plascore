@@ -13,8 +13,8 @@ summon armor_stand ~ ~ ~ {Tags:["spawn"],Invisible:1b,Invulnerable:1b,NoGravity:
 
 setworldspawn ~ ~ ~
 # Tellers.
-tellraw @s [{"text":"Successfully set Spawn to X: ","color":"green"},{"score":{"name":"spawnx","objective":"Database"},"color":"gold"},{"text":" Y: ","color":"green"},{"score":{"name":"spawny","objective":"Database"},"color":"gold"},{"text":" Z: ","color":"green"},{"score":{"name":"spawnz","objective":"Database"},"color":"gold"},{"text":"!","color":"green"}]
-tellraw @a[tag=sky.perm.admin] [{"text":"Spawn","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" has just set spawn!","color":"red"}]
+tellraw @s [{"text":"Successfully set spawn to X: ","color":"green"},{"score":{"name":"spawnx","objective":"Database"},"color":"gold"},{"text":" Y: ","color":"green"},{"score":{"name":"spawny","objective":"Database"},"color":"gold"},{"text":" Z: ","color":"green"},{"score":{"name":"spawnz","objective":"Database"},"color":"gold"},{"text":"!","color":"green"}]
+tellraw @a[tag=sky.perm.admin] [{"text":"spawn","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":" has just set spawn!","color":"red"}]
 # Reset.
-scoreboard players reset @s SetSpawn
-scoreboard players enable @a[tag=OP] SetSpawn
+scoreboard players reset @s setspawn
+scoreboard players enable @a[tag=OP] setspawn

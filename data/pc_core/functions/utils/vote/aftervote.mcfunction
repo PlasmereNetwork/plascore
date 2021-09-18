@@ -1,1 +1,1 @@
-scoreboard players add @s CurrVotes 1
+scoreboard players add @s stat.votes 1

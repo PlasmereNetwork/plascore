@@ -12,5 +12,5 @@ tellraw @s [{"text":"\u00A7c- \u00A72Do not PvP people who don't want to be PvPe
 tellraw @s [{"text":"\u00A7c- \u00A72Respect all backgrounds and identifiers. (This includes jokes.)","color":"dark_green"}]
 tellraw @s [{"text":"\u00A7c- \u00A72Do not lie to staff.","color":"dark_green"}]
 tellraw @a[tag=OP] [{"text":"Rules System","color":"gold"},{"text":" : ","color":"dark_gray"},{"text":"Just showed ","color":"red"},{"selector":"@s"},{"text":" the Rules!","color":"red"}]
-scoreboard players reset @s Rules
-scoreboard players enable @a Rules
+scoreboard players reset @s rules
+scoreboard players enable @a rules

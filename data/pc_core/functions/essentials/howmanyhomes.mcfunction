@@ -10,4 +10,4 @@ tellraw @s[tag=home8.can] "\u00a73Home 8"
 tellraw @s[tag=home9.can] "\u00a71Home 9"
 tellraw @s[tag=home10.can] "\u00a79Home 10"
 
-scoreboard players set @s HomeNumber 0
+scoreboard players set @s homeNumber 0

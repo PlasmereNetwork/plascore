@@ -1,15 +1,15 @@
-tellraw @s [{"text":"TPA request to ","color":"red"},{"selector":"@p[tag=TPAto]","color":"green"},{"text":" timed out after fifteen seconds...","color":"red"}]
-tellraw @p[tag=TPAto] [{"text":"TPA request from ","color":"red"},{"selector":"@p[tag=TPAing]","color":"green"},{"text":" timed out after fifteen seconds...","color":"red"}]
-tellraw @a[tag=OP] [{"text":"New TPA System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@p[tag=TPAing]","color":"green"},{"text":" wanted to TPA to ","color":"red"},{"selector":"@p[tag=TPAto]","color":"green"},{"text":", but the TPA timed out...","color":"red"}]
-tag @a remove TPAing
-tag @a remove TPAto
+tellraw @s [{"text":"tpa request to ","color":"red"},{"selector":"@p[tag=tpato]","color":"green"},{"text":" timed out after fifteen seconds...","color":"red"}]
+tellraw @p[tag=tpato] [{"text":"tpa request from ","color":"red"},{"selector":"@p[tag=tpaing]","color":"green"},{"text":" timed out after fifteen seconds...","color":"red"}]
+tellraw @a[tag=OP] [{"text":"New tpa System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@p[tag=tpaing]","color":"green"},{"text":" wanted to tpa to ","color":"red"},{"selector":"@p[tag=tpato]","color":"green"},{"text":", but the tpa timed out...","color":"red"}]
+tag @a remove tpaing
+tag @a remove tpato
 tag @a remove Tried
-tag @a remove GotTPA
+tag @a remove Gottpa
 tag @a remove tpa_removed
 tag @a remove tpa_yep
-scoreboard players add @s TPAs 1
-scoreboard players enable @a TPA
-scoreboard players enable @a TPAccept
-scoreboard players set @a TPA 0
-scoreboard players set @a TPARequest 0
-tellraw @s [{"text":"You now have ","color":"dark_green"},{"score":{"name":"@s","objective":"TPAs"},"color":"gold"},{"text":" TPAs...","color":"dark_green"}]
+scoreboard players add @s tpas 1
+scoreboard players enable @a tpa
+scoreboard players enable @a tpaccept
+scoreboard players set @a tpa 0
+scoreboard players set @a tparequest 0
+tellraw @s [{"text":"You now have ","color":"dark_green"},{"score":{"name":"@s","objective":"tpas"},"color":"gold"},{"text":" tpas...","color":"dark_green"}]

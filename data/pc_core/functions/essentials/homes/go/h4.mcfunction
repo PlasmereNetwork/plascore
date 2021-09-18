@@ -1,8 +1,8 @@
-execute at @s store result entity @s Pos[0] double 1 run scoreboard players get @p[scores={Home=4}] xPos4
-execute at @s store result entity @s Pos[1] double 1 run scoreboard players get @p[scores={Home=4}] yPos4
-execute at @s store result entity @s Pos[2] double 1 run scoreboard players get @p[scores={Home=4}] zPos4
+execute at @s store result entity @s Pos[0] double 1 run scoreboard players get @p[scores={home=4}] xpos4
+execute at @s store result entity @s Pos[1] double 1 run scoreboard players get @p[scores={home=4}] ypos4
+execute at @s store result entity @s Pos[2] double 1 run scoreboard players get @p[scores={home=4}] zpos4
 
-execute at @s as @p[scores={Home=4}] if score @s dim4 matches -1 in minecraft:the_nether run teleport @s ~0.5 ~0.4 ~0.5
+execute at @s as @p[scores={home=4}] if score @s dim4 matches -1 in minecraft:the_nether run teleport @s ~0.5 ~0.4 ~0.5
 execute at @s as @p[scores={Home=4}] if score @s dim4 matches -1 in minecraft:the_nether run teleport @s ~0.5 ~0.4 ~0.5
 execute at @s as @p[scores={Home=4}] if score @s dim4 matches 0 in minecraft:overworld run teleport @s ~0.5 ~0.4 ~0.5
 execute at @s as @p[scores={Home=4}] if score @s dim4 matches 0 in minecraft:overworld run teleport @s ~0.5 ~0.4 ~0.5

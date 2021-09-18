@@ -8,7 +8,7 @@ execute at @s[team=Admin] run particle firework ~ ~ ~ 1 1 1 0.001 2 force @a
 #execute at @s[team=Admin-YT] run particle cloud ~ ~ ~ 1 1 1 0.001 1 force @a
 execute at @s[team=Mod] run particle cloud ~ ~ ~ 1 1 1 1 1 force @a
 #execute at @s[team=Mod-YT] run particle cloud ~ ~ ~ 1 1 1 1 1 force @a
-execute at @s[team=Helper,tag=!named] run particle totem_of_undying ~ ~ ~ 1 1 1 0.001 1 force @a
+execute at @s[team=helper,tag=!named] run particle totem_of_undying ~ ~ ~ 1 1 1 0.001 1 force @a
 
 execute at @s[team=VIP] run particle smoke ~ ~ ~ 1 1 1 0.001 1 force @a
 execute at @s[team=VIPP] run particle portal ~ ~ ~ 1 1 1 0.001 5 force @a

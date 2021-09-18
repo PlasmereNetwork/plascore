@@ -6,7 +6,7 @@
 				"items": [
 					{
 						"item": "minecraft:enchanted_book",
-						"nbt": "{StoredEnchantments:[{id:70,lvl:1}]}"
+						"nbt": "{storedEnchantments:[{id:70,lvl:1}]}"
 					}
 				]
 			}

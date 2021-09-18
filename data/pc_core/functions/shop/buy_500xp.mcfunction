@@ -6,5 +6,5 @@ execute as @s[scores={Karma=1500..}] run scoreboard players remove @s Karma 1500
 execute as @s[scores={Karma=..1499}] run tellraw @a[tag=OP] [{"text":"BuyXP System","color":"gold"},{"text":" : ","color":"dark_gray"},{"selector":"@s"},{"text":" just tried to buy ","color":"red"},{"text":"500","color":"gold"},{"text":" XP, but didn't have enough Karma!","color":"red"}]
 execute as @s[scores={Karma=..1499}] run tellraw @s [{"text":"You don't have enough Karma to do this! You must have at least ","color":"red"},{"text":"1500","color":"gold"},{"text":" Karma!","color":"red"}]
 
-scoreboard players reset @s Buy_500XP
-scoreboard players enable @a Buy_500XP
+scoreboard players reset @s buy_500xp
+scoreboard players enable @a buy_500xp
