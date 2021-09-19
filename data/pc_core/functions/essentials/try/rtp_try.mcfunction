@@ -8,12 +8,12 @@ execute as @s[tag=gettingrtp] if entity @s[nbt={Dimension:"minecraft:the_nether"
 execute as @s[tag=gettingrtp] if entity @s[nbt={Dimension:"minecraft:the_end"}] at @s run spreadplayers ~ ~ 0 50000 false @s
 execute as @s[tag=gettingrtp] run scoreboard players remove @s rtps 1
 execute as @s[tag=gettingrtp,tag=!OP] run scoreboard players set @s gm.survival 1
-execute as @s[tag=gettingrtp] store result score @s rtp.xpos run data get entity @s Pos[0]
-execute as @s[tag=gettingrtp] store result score @s rtp.ypos run data get entity @s Pos[1]
-execute as @s[tag=gettingrtp] store result score @s rtp.zpos run data get entity @s Pos[2]
-execute as @s[tag=gettingrtp] if entity @s[nbt={Dimension:"minecraft:the_nether"}] run scoreboard players set @s rtp.dim -1
-execute as @s[tag=gettingrtp] if entity @s[nbt={Dimension:"minecraft:overworld"}] run scoreboard players set @s rtp.dim 0
-execute as @s[tag=gettingrtp] if entity @s[nbt={Dimension:"minecraft:the_end"}] run scoreboard players set @s rtp.dim 1
+execute as @s[tag=gettingrtp] at @s store result score @s rtp.xpos run data get entity @s Pos[0]
+execute as @s[tag=gettingrtp] at @s store result score @s rtp.ypos run data get entity @s Pos[1]
+execute as @s[tag=gettingrtp] at @s store result score @s rtp.zpos run data get entity @s Pos[2]
+execute as @s[tag=gettingrtp] at @s if entity @s[nbt={Dimension:"minecraft:the_nether"}] run scoreboard players set @s rtp.dim -1
+execute as @s[tag=gettingrtp] at @s if entity @s[nbt={Dimension:"minecraft:overworld"}] run scoreboard players set @s rtp.dim 0
+execute as @s[tag=gettingrtp] at @s if entity @s[nbt={Dimension:"minecraft:the_end"}] run scoreboard players set @s rtp.dim 1
 execute as @s[tag=gettingrtp] run tellraw @s [{"text":"Successfully set your rtp coords to X: ","color":"green"},{"score":{"name":"@s","objective":"rtp.xpos"},"color":"gold"},{"text":" Y: ","color":"green"},{"score":{"name":"@s","objective":"rtp.ypos"},"color":"gold"},{"text":" Z: ","color":"green"},{"score":{"name":"@s","objective":"rtp.zpos"},"color":"gold"},{"text":"!","color":"green"}]
 execute as @s[tag=gettingrtp] run tellraw @s [{"text":"Rtped successfully!","color":"green","italic":"true"},{"text":"\n\u00A77Current \u00A74rtps\u00A78: "},{"score":{"name":"@s","objective":"rtps"}},{"text":"\n\u00A77Current \u00A74Karma\u00A78: "},{"score":{"name":"@s","objective":"Karma"}}]
 execute as @s[tag=gettingrtp] run tellraw @a[tag=OP] [{"text":"rtp System","color":"gold"},{"text":" : ","color":"dark_gray"},{"text":"Just successfully rtped ","color":"red"},{"selector":"@s","color":"green"},{"text":"!","color":"red"}]
