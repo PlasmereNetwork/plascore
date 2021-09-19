@@ -79,12 +79,12 @@ execute as @s[scores={help=9}] at @s run tellraw @s [{"text":"\u00A75/\u00A7btri
 execute as @s[scores={help=9}] at @s run tellraw @s [{"text":"\u00A74> \u00A78Shows you the vote link.","color":"dark_gray"}]
 execute as @s[scores={help=9}] at @s run tellraw @s [{"text":"\u00A7a[Click to go to the next page]","color":"green","hoverEvent":{"action":"show_text","value":"\u00A7cClick to go to next page!"},"clickEvent":{"action":"run_command","value":"/trigger help set 10"}}]
 # Page 8
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A77-- \u00A7dHelp \u00A72Page \u00A7610 \u00A72out of \u00A7610 \u00A77--"}]
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A75/\u00A7btrigger \u00A7evoteDay","hoverEvent":{"action":"show_text","value":"\u00A73Click to execute!"},"clickEvent":{"action":"run_command","value":"/trigger voteDay"}}]
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A74> \u00A78votes for day for Sleepvote.","color":"dark_gray"}]
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A75/\u00A7btrigger \u00A7evoteNight","hoverEvent":{"action":"show_text","value":"\u00A73Click to execute!"},"clickEvent":{"action":"run_command","value":"/trigger voteNight"}}]
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A74> \u00A78votes for night for Sleepvote.","color":"dark_gray"}]
-execute as @s[scores={Help=10}] at @s run tellraw @s [{"text":"\u00A7a[Click to go to the next page]","color":"green","hoverEvent":{"action":"show_text","value":"\u00A7cClick to go to next page!"},"clickEvent":{"action":"run_command","value":"/trigger Help set 11"}}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A77-- \u00A7dhelp \u00A72Page \u00A7610 \u00A72out of \u00A7610 \u00A77--"}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A75/\u00A7btrigger \u00A7evoteDay","hoverEvent":{"action":"show_text","value":"\u00A73Click to execute!"},"clickEvent":{"action":"run_command","value":"/trigger voteDay"}}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A74> \u00A78votes for day for Sleepvote.","color":"dark_gray"}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A75/\u00A7btrigger \u00A7evoteNight","hoverEvent":{"action":"show_text","value":"\u00A73Click to execute!"},"clickEvent":{"action":"run_command","value":"/trigger voteNight"}}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A74> \u00A78votes for night for Sleepvote.","color":"dark_gray"}]
+execute as @s[scores={help=10}] at @s run tellraw @s [{"text":"\u00A7a[Click to go to the next page]","color":"green","hoverEvent":{"action":"show_text","value":"\u00A7cClick to go to next page!"},"clickEvent":{"action":"run_command","value":"/trigger help set 11"}}]
 ## Resetters.
-scoreboard players reset @s Help
-scoreboard players enable @s Help
+scoreboard players reset @s help
+scoreboard players enable @s help

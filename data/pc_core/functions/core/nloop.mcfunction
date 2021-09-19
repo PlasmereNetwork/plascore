@@ -9,7 +9,7 @@ bossbar set minecraft:plasmere name [{"text":"\u00A72vote Party \u00A78- "},{"sc
 execute store result bossbar minecraft:plasmere value run scoreboard players get VP Database
 bossbar set minecraft:plasmere players @a
 ### uuid ###
-execute as @p[tag=!uuided] run function pc_core:utils/scoreboard/givers/uuid
+execute as @p[tag=!Thisuuid] run function pc_core:utils/scoreboard/givers/uuid
 execute as @p[scores={uuid=0}] run function pc_core:utils/scoreboard/givers/uuid
 ### SPAWN PROT ### distance=..200,x=0,y=60,z=0
 teleport @e[type=phantom,distance=..200,x=0,y=60,z=0] ~ ~-300 ~
