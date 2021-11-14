@@ -1,6 +1,6 @@
 ### NEW PLAYERS ###
 function pc_core:utils/new_player_test
-function pc_core:utils/vote/votely_check
+#function pc_core:utils/vote/votely_check
 ### REPEATED COMMANDS ###
 execute as @a[gamemode=!spectator,tag=PO] run function pc_core:particles
 ### FUNCTIONS ###

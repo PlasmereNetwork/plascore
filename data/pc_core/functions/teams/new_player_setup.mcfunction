@@ -1,9 +1,8 @@
 # Teleports to spawn location.
-scoreboard players set @s spawn 1
+execute as @s run spawn.new
 # Sets their spawnpoint to that location.
-execute as @s[tag=!OP,tag=!joined] run function pc_core:spawnpoint
+execute as @s[tag=!OP,tag=!joined] at @s run spawnpoint @s
 # Sets off their start scores.
-scoreboard players set @s rtps 5
 scoreboard players set @s Crate 1
 scoreboard players add @a Karma 200
 #scoreboard players add @a TC 100
@@ -20,7 +19,7 @@ tag @s add PO
 tag @s add POed
 # Tellraws stuff.
 tellraw @a [{"selector":"@s","color":"green"},{"text":" is a new player","color":"red"},{"text":"!","color":"dark_gray"},{"text":"\nWelcome to ","color":"red"},{"text":"Plasmere","color":"red"},{"text":", ","color":"dark_gray"},{"selector":"@s","color":"green"},{"text":"!","color":"dark_gray"},{"text":"\nWe have now had ","color":"red"},{"score":{"name":"Players-This-Reset","objective":"Stats"},"color":"gold"},{"text":" players join this version of ","color":"red"},{"text":"Vanilla","color":"dark_aqua"},{"text":"! \u00A7b(Vanilla \u00A7bv21)","color":"dark_gray"}]
-tellraw @s [{"text":"Please do \u00A7b/trigger tutorial \u00A7ato get started!","color":"green"}]
+tellraw @s [{"text":"Please do \u00A7b/tutorial \u00A7ato get started!","color":"green"}]
 # Gives starter items.
 give @s wooden_sword{display:{Name:"{\"text\":\"Foam Dagger\",\"color\":\"gold\"}",Lore:["Should it bend this much?"]},Enchantments:[{id:"sharpness",lvl:3}]} 1
 give @s bread{display:{Name:"{\"text\":\"Mana\",\"color\":\"red\"}",Lore:["Tastes stale... :/"]}} 10

@@ -6,6 +6,7 @@ scoreboard players add @s diavotes 1
 scoreboard players remove @s getvoted 1
 scoreboard players add @s Karma 500
 scoreboard players add @s stat.votes 1
+# Comment out line below if not doubled votes...
 execute as @s run function pc_core:utils/vote/aftervote
 
 execute as @s[scores={diavotes=5..}] run give @s minecraft:diamond{display:{Name:"{\"text\":\"Blue Shiney Rock\",\"color\":\"aqua\"}"}} 1
