@@ -25,7 +25,7 @@ team add bard
 team add eagle
 
 team add alchemist
-team add jest
+team add jester
 
 # Custom Roles (Add)
 
