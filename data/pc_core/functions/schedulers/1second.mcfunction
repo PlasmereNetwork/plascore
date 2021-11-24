@@ -22,4 +22,6 @@ execute if score 1s Database matches 4 run scoreboard players set 1s Database 0
 
 function pc_core:trigger_helper
 
+execute if score completed Database matches 0 run reload vanilla
+
 schedule function pc_core:schedulers/1second 1s
